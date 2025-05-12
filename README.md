@@ -4,9 +4,9 @@ description: A research collective focused on the Second Renaissance
 showHero: true
 image: /assets/research-retreat-sep-2024.jpg
 cta:
-  - href: /#research
+  - href: #research
     label: Learn more
-  - href: /#how-to-join-in
+  - href: #how-to-join-in
     label: Participate
 ---
 
