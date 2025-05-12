@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "logo": "https://lifeitself.org/assets/tao/icon-color-logo.png",
+    "title": "Life Itself Research",
+    "links": [
+      {
+        "href": "https://lifeitself.org/",
+        "name": "Main Site"
+      },
+      {
+        "href": "https://forum.secondrenaissance.net/",
+        "name": "Forum"
+      },
+      {
+        "href": "https://news.lifeitself.org/",
+        "name": "Blog"
+      }
+    ],
+    "social": [
+      {
+        "label": "youtube",
+        "name": "Youtube profile",
+        "href": "https://youtube.com/@bylifeitself"
+      },
+      {
+        "label": "twitter",
+        "name": "X/Twitter profile",
+        "href": "https://x.com/forlifeitself"
+      },
+      {
+        "label": "github",
+        "name": "GitHub Profile",
+        "href": "https://github.com/life-itself/research"
+      }
+    ]
+  },
+  "showSidebar": true,
+  "showEditLink": true
+  }
+}
