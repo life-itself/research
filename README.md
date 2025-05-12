@@ -31,6 +31,8 @@ Some earlier research outputs include:
 - [Unpacking the Implications of Web3 for Local Government](https://lifeitself.org/labs) 2022
 - [Collective Intelligence: Towards a Conversation](https://lifeitself.org/blog/2020/08/28/collective-intelligence) 2019
 
+![](/assets/viz-research-topics-2023.png)
+
 
 ## How to join in
 
