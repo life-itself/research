@@ -1,9 +1,18 @@
 ---
 title: Life Itself Research
 description: A research collective focused on the Second Renaissance
+showHero: true
+image: /assets/research-retreat-sep-2024.jpg
+cta:
+  - href: /#research
+    label: Learn more
+  - href: /#how-to-join-in
+    label: Participate
 ---
 
 We are a **research collective** exploring paths to a [second renaissance](https://secondrenaissance.net/) and [awakening societies](/awakening-society) 🌻. We produce reports, papers, methods and tools. We [welcome participation](#how-to-join-in).
+
+<a id="research"></a>
 
 ## Research Approach and Outputs
 
