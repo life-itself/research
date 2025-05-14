@@ -1,6 +1,6 @@
 
 ```dataview
-table start, doctype, status, date
+table start, doctype, published, announced, date
 from "raw"
 sort start desc
 ```

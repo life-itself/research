@@ -2,7 +2,6 @@
 title: 
 subtitle: 
 image: 
-partners: 
 contributors: 
 start: 
 end:
