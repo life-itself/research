@@ -1,7 +1,7 @@
 ---
 title: Unpacking the Implications of Web3 for Local Government
 subtitle: Supporting the Government Finance Officer's Association to help its members understand the role Web3 technologies might play in rethinking local government revenue systems.
-image: "[[../assets/gfoa-real-deal-on-web-3.webp]]"
+image: "[[../assets/images/gfoa-real-deal-on-web-3.webp]]"
 contributors: Theo Cox; Liam Kavanagh
 start: "2022"
 end: "2023"
