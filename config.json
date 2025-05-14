@@ -34,5 +34,6 @@
       }
     ]
   },
+  "showSidebar": true,
   "showEditLink": true
 }
