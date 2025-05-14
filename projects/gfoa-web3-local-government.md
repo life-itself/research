@@ -20,8 +20,8 @@ Life Itself Labs produced technical papers including a technological explainer a
 
 ## Publications
 
-- [[../publications/whats-the-real-deal-on-web3|Theo Cox and Shayne Kavanagh, 'What's the Real Deal on Web3? Examining the revenue potential and potential risks of blockchain and cryptocurrencies for local governments', *Government Finance Review* (June 2023)]]
-- [[../publications/cryptocurrency-fairytale-or-future|Liam Kavanagh and Shayne Kavanagh, 'Cryptocurrency: Fairy Tale or Future?', *Government Finance Review* (April 2023)]]
+- Theo Cox and Shayne Kavanagh, [[../publications/whats-the-real-deal-on-web3|'What's the Real Deal on Web3? Examining the revenue potential and potential risks of blockchain and cryptocurrencies for local governments']], *Government Finance Review* (June 2023)
+- Liam Kavanagh and Shayne Kavanagh, [[../publications/cryptocurrency-fairytale-or-future|'Cryptocurrency: Fairy Tale or Future?']], *Government Finance Review* (April 2023)
 
 ## Partners
 
