@@ -1,7 +1,7 @@
 ---
 title: Making Sense of Web3 and Crypto
 subtitle: Crypto & Web3 are a huge phenomenon but can be hard to make sense of. We help with introductions to key concepts and in-depth evaluations of the claims for its social and economic impact.
-image: "[[making-sense-of-web3-homepage.png]]"
+image: /assets/img/making-sense-of-web3-homepage.png
 contributors: Rufus Pollock; Theo Cox; Eilidh Ross; Catherine Tran
 start: "2022"
 end: "2023"
