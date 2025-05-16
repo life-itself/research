@@ -1,7 +1,7 @@
 ---
 title: Mapping Responses to the Polycrisis
 subtitle: 
-image: /assets/mapping.jpg
+image: /assets/img/mapping.jpg
 contributors: Rufus Pollock; Theo Cox; Catherine Tran
 start: "2022"
 end: "2023"
