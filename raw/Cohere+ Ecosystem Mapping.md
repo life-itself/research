@@ -5,13 +5,17 @@ url: https://secondrenaissance.net/ecosystem/cohere
 doctype: project page
 published: true
 announced: N
-authors:
+authors: 
+processed:
 ---
 
 # Status Notes
 
 Reviewed outputs and materials in [spreadsheet](https://docs.google.com/spreadsheets/d/1bNrudSwgGnC757WELdN5S1n0NM26L-TFCPIMtxmdh_8/edit?gid=54040125#gid=54040125).
 
+- [ ] Publish project/publications page(s) with all relevant outputs
+  - [ ] Emergent Power report
+  - [ ] Directory and visual map
 - [ ] Announce final mapping outputs
 - [ ] Write an accompanying blurb/explanatory text for the visual interactive map
 

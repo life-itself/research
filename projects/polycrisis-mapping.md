@@ -20,6 +20,11 @@ This project is supported by the Omega Resilience Awards (ORA), and is in collab
 - Theo Cox and Rufus Pollock, [[../publications/polycrisis-mapping-stakeholder-needs-analysis|'Polycrisis Mapping: Stakeholder Needs Analysis Report']] (2023)
 - Catherine Tran and Rufus Pollock, [[../assets/A Boundary Makes a Map - ORA Report on Building a Prototype Directory of Polycrisis Actors - Life Itself.pdf|'A Boundary Makes a Map: Reflections from building a prototype directory of actors responding to the polycrisis']] (2023)
 
+## Background
+
+Read more about the project:
+- [Project announce post](https://lifeitself.org/blog/2023/01/19/polycrisis-mapping-ORA-project)
+
 ## Partners
 
 - [Omega Resilience Awards](https://omega.ngo/our-work/ora/)

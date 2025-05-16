@@ -6,7 +6,6 @@ contributors: Rufus Pollock; Theo Cox; Eilidh Ross; Catherine Tran
 start: "2022"
 end: "2023"
 ---
-
 **This project provides introductions to key concepts and ideas related to web3, along with in-depth exploration of the claims for its social and economic impact.**
 
 The claims made for web3 (and crypto) are bold and polarizing – from “it will revolutionize governance” to “it’s a complete waste of time”. Making sense of these claims is important so that we can make good decisions about where we devote our energy – particularly for those of us involved in social change.

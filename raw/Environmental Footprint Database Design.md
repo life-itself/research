@@ -5,13 +5,14 @@ url:
 doctype: 
 published: 
 announced: N
-authors:
+authors: 
+processed:
 ---
 
 # Status Notes
 
 - [ ] Review materials
-- [ ] Fill in key info on this page
+- [ ] Publish project/publications page(s)
 
 # Environmental Footprint Database Design
 

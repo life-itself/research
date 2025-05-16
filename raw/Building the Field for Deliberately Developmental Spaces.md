@@ -5,14 +5,19 @@ url: https://lifeitself.org/initiatives/building-the-field-for-developmental-spa
 doctype: project page
 published: 
 announced: 
-authors:
+authors: 
+processed:
 ---
 
 # Status Notes
 
 Have not yet reviewed materials. Not sure whether there are new outputs to share here (report never finished I think and assume we announced [developmentalspaces.org](http://developmentalspaces.org/) and manifesto -- or not?)
 
-- [ ] Review materials
+- [ ] Review materials **Had started in [spreadsheet](https://docs.google.com/spreadsheets/d/1bNrudSwgGnC757WELdN5S1n0NM26L-TFCPIMtxmdh_8/edit?gid=0#gid=0)  ~10%**
+  - [ ] What is the status of the mapping report?
+- [ ] Publish project page and any relevant publications pages with outputs:
+  - [ ] Manifesto 
+  - [ ] ...
 
 # Building the Field for Deliberately Developmental Spaces 
 

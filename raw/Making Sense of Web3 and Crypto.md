@@ -6,6 +6,7 @@ doctype: project page
 published: true
 announced: Y
 authors: Rufus Pollock; Theo Cox
+processed: true
 ---
 # Status Notes
 

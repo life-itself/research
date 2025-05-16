@@ -6,11 +6,16 @@ doctype: Announce post and summary of publication
 published: true
 announced: Y
 authors: Rufus Pollock and Rosie Bell
+processed:
 ---
 
 # Status Notes
 
-Published and announced. 
+Published and announced on Substack.
+
+- [ ] Publish paper as publications page
+- [ ] Decide whether to also have a project page for it
+  - [ ] If so, publish project page
 
 # 'From Polycrisis to Metacrisis' White Paper
 

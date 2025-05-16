@@ -13,7 +13,8 @@ https://lifeitself.org/labs/projects/designing-incentive-mechanisms
 # Status Notes
 
 - [ ] Review materials
-- [ ] Check if the report is published? (Is it possible to publish?)
+	- [ ] Check whether the report is published? (Is it possible to publish?)
+- [ ] Publish project/publications page(s)
 
 # Designing Incentive Mechanisms for Environmental Data Sharing (GIZ)
 ## The Challenge

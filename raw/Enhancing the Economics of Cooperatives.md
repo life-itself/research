@@ -5,15 +5,23 @@ url: https://lifeitself.org/labs/projects/co-ops-project
 doctype: whitepaper
 published: true
 announced: "?"
+processed:
 ---
 
-https://lifeitself.org/labs/projects/co-ops-project
+
 
 # Status Notes
 
-Maybe do further investigation. i.e. Where is the output from this?/the whitepaper referred to in the description. What is the date of this project? Was there a client of funder? The executive summary is published.
+Maybe do further investigation. i.e.  The executive summary is published.
 
-- [ ] Link to download full research paper does not work https://lifeitself.org/blog/lessons-from-elinor-ostrom-for-cooperative-research #brokenlink
+- [ ] Questions about this project: 
+	- [ ] Where/what is the output from this?/the whitepaper referred to in the description on https://lifeitself.org/labs/projects/co-ops-project. 
+	- [ ] What is the date of this project? 
+	- [ ] Was there a client or funder?
+- [ ] Review materials
+	- [ ] Find research paper
+		- [ ] Link to download full research paper does not work https://lifeitself.org/blog/lessons-from-elinor-ostrom-for-cooperative-research 
+- [ ] Publish project/publications page(s)
 
 # Enhancing the Economics of Cooperatives
 

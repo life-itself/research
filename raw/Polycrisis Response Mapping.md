@@ -5,14 +5,16 @@ url: https://lifeitself.org/blog/2023/01/19/polycrisis-mapping-ORA-project
 doctype: project announce post
 published: 
 announced: N
-authors:
+authors: 
+processed: true
 ---
 
 # Status Notes
 
 Project is completed but unpublished and final outputs unannounced. Reviewed outputs and materials in [spreadsheet](https://docs.google.com/spreadsheets/d/1bNrudSwgGnC757WELdN5S1n0NM26L-TFCPIMtxmdh_8/edit?gid=54040125#gid=54040125).
 
-- [ ] Publish and announce final outputs
+- [x] Publish final outputs **Published in repo**
+- [ ] Announce final outputs
 
 # Polycrisis Response Mapping 
 
