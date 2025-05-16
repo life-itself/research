@@ -1,4 +1,5 @@
 ---
+title: Making Sense of Web3 and Crypto
 year: 2022
 url: https://web3.lifeitself.org/
 doctype: project page

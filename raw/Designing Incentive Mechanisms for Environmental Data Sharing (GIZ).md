@@ -1,4 +1,5 @@
 ---
+title: Designing Incentive Mechanisms for Environmental Data Sharing (GIZ)
 year: 2022
 url: https://lifeitself.org/labs/projects/designing-incentive-mechanisms
 doctype: project page

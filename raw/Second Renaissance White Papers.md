@@ -1,4 +1,5 @@
 ---
+title: Second Renaissance White Papers
 year: 2024
 url: https://secondrenaissance.net/paper
 doctype: project page

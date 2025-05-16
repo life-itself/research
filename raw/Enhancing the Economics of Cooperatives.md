@@ -1,4 +1,5 @@
 ---
+title: Enhancing the Economics of Cooperatives
 year: 2022
 url: https://lifeitself.org/labs/projects/co-ops-project
 doctype: whitepaper

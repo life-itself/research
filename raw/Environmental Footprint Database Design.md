@@ -1,4 +1,5 @@
 ---
+title: Environmental Footprint Database Design
 year: 2022
 url: 
 doctype: 

@@ -1,4 +1,5 @@
 ---
+title: Polycrisis Response Mapping
 year: 2023
 url: https://lifeitself.org/blog/2023/01/19/polycrisis-mapping-ORA-project
 doctype: project announce post

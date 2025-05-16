@@ -1,4 +1,5 @@
 ---
+title: Cohere+ Ecosystem Mapping
 year: 2024
 url: https://secondrenaissance.net/ecosystem/cohere
 doctype: project page

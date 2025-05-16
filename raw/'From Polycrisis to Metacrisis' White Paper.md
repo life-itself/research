@@ -1,4 +1,5 @@
 ---
+title: "'From Polycrisis to Metacrisis' White Paper"
 year: 2025
 url: https://news.lifeitself.org/p/from-polycrisis-to-metacrisis-a-short
 doctype: Announce post and summary of publication

@@ -1,4 +1,5 @@
 ---
+title: Building the Field for Deliberately Developmental Spaces
 year: 2023
 url: https://lifeitself.org/initiatives/building-the-field-for-developmental-spaces
 doctype: project page
