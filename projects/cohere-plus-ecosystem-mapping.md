@@ -1,5 +1,5 @@
 ---
-title: Cohere+
+title: Cohere+ Ecosystem Mapping
 subtitle: 
 image: 
 contributors: Rufus Pollock; Theo Cox; Catherine Tran; Elisa Paka
