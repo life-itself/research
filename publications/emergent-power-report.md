@@ -3,7 +3,7 @@ title: "Emergent Power: Key Challenges and Capacities for Paradigmatic Change Ag
 subtitle: 
 authors: Catherine Tran and Elisa Paka
 date: February 2024
-project:
+project: "[[../projects/cohere-plus-ecosystem-mapping|cohere-plus-ecosystem-mapping]]"
 ---
 ## Executive Summary
 

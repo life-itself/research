@@ -14,10 +14,11 @@ processed:
 Reviewed outputs and materials in [spreadsheet](https://docs.google.com/spreadsheets/d/1bNrudSwgGnC757WELdN5S1n0NM26L-TFCPIMtxmdh_8/edit?gid=54040125#gid=54040125).
 
 - [ ] Publish project/publications page(s) with all relevant outputs
-  - [ ] Emergent Power report **2025-05-21 Done here:** [[../publications/emergent-power-report|emergent-power-report]]
+  - [x] Emergent Power report **2025-05-21 Done here:** [[../publications/emergent-power-report|emergent-power-report]]
   - [ ] Directory and visual map
 - [ ] Announce final mapping outputs
 - [ ] Write an accompanying blurb/explanatory text for the visual interactive map
+
 
 # Cohere+ Ecosystem Mapping
 
