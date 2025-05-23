@@ -2,7 +2,7 @@
 title: Life Itself Research
 description: A research collective focused on the Second Renaissance
 showHero: true
-image: /assets/research-retreat-sep-2024.jpg
+image: /assets/img/research-retreat-sep-2024.jpg
 cta:
   - href: "#research"
     label: Learn more
