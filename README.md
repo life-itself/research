@@ -10,7 +10,7 @@ cta:
     label: Participate
 ---
 
-We are a **research collective** exploring paths to a [second renaissance](https://secondrenaissance.net/) and [awakening societies](/awakening-society) 🌻. We produce reports, papers, methods and tools. We [welcome participation](#how-to-join-in).
+We are a **research collective** exploring paths to a [second renaissance](https://secondrenaissance.net/) and [awakening societies](https://lifeitself.org/learn/awakening-society) 🌻. We produce reports, papers, methods and tools. We [welcome participation](#how-to-join-in).
 
 <a id="research"></a>
 
