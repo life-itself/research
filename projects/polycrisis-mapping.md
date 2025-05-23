@@ -12,8 +12,6 @@ The effects of the global polycrisis are being ever more keenly felt and there i
 
 Mapping those actors responding to the polycrisis has been identified as a highly valuable activity by many of us working in this area; mapping is the first step towards cohering the field of work responding to the polycrisis and facilitating the shared awareness, strategic alignment, peer learning and collaboration required to increase impact.
 
-This project is supported by the Omega Resilience Awards (ORA), and is in collaboration with key stakeholders engaged in aligned efforts to map the polycrisis: Cascade Institute, Post Carbon Institute, and Polycrisis Transition Consultancy.
-
 ## Publications
 
 - [Directory of actors responding to polycrisis in the Global South](https://airtable.com/appihB5LGqUeA5bl5/shrLQk7H2HhKDmd6P/tbllP3ZWZvi9E1QaY)
@@ -27,7 +25,11 @@ Read more about the project:
 
 ## Partners
 
-- [Omega Resilience Awards](https://omega.ngo/our-work/ora/)
+This project is supported by the [Omega Resilience Awards](https://omega.ngo/our-work/ora/) (ORA), and is in collaboration with key stakeholders engaged in aligned efforts to map the polycrisis: 
+
 - [Cascade Institute](https://cascadeinstitute.org/) 
 - [Post Carbon Institute](https://www.postcarbon.org/)
 - [Polycrisis Transition Consultancy](https://www.postcarbon.org/)
+
+
+.![[../assets/Omega-Logo-Dark-Small-400.png]]
