@@ -2,6 +2,6 @@
 title: 
 subtitle: 
 authors: 
-date: 
+year: 
 project:
 ---
