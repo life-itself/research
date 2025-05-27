@@ -45,4 +45,6 @@ In addition, the Appendix offers more information on:
 
 ## Full report
 
-![[../assets/ect-report.pdf]]
+Read and download the full report [here](https://drive.google.com/file/d/1XPQDZTGqxsVMRhv4AMR89wcfQg1yCWTF/view?usp=drive_link).
+
+![[../assets/Screenshot 2025-05-27 at 21.57.50.png]]

@@ -1,7 +1,7 @@
 ---
 title: 
 subtitle: 
-authors: 
+author: 
 year: 
 project:
 ---
