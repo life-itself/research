@@ -9,7 +9,7 @@ end: "2024"
 🚧 This page is in progress.
 ## Publications
 
-- Karl Steyaert, Jocelyn Ames, Catherine Tran, and Nadine Helm
+- Karl Steyaert, Jocelyn Ames, Catherine Tran and Nadine Helm, [[../publications/embodying-collective-transformation-report|'Embodying Collective Transformation: Learnings from a 3-month experiment in creating conscious community']] (2024)
 
 ## Background
 
