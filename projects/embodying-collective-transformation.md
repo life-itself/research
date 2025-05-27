@@ -6,7 +6,7 @@ contributors: Karl Steyaert; Jocelyn Ames; Catherine Tran; Nadine Helm
 start: "2022"
 end: "2024"
 ---
-A series of 3 month-long residencies consisting of a 7-day intensive training in personal and group practices for courageous collective transformation, followed by a 3-week community immersion to integrate and deepen these practices in our daily lives. The immersion includes time and space for participants to continue their daily personal work and projects. 
+**A series of 3 month-long residencies consisting of a 7-day intensive training in personal and group practices for courageous collective transformation, followed by a 3-week community immersion to integrate and deepen these practices in our daily lives.** 
 
 Our shared purpose is…
 
