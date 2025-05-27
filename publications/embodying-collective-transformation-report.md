@@ -3,5 +3,5 @@ title: "Embodying Collective Transformation: Learnings from a 3-month experiment
 subtitle: 
 author: Karl Steyaert, Jocelyn Ames, Catherine Tran and Nadine Helm
 project: 
-year:
+year: 2023
 ---
