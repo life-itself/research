@@ -13,3 +13,4 @@ authors:
 - [ ] Publish report
 - [ ] Review materials
 	- [ ] https://lifeitself.org/initiatives/embodying-collective-transformation
+	- [ ] https://lifeitself.org/ect
