@@ -1,8 +1,8 @@
 ---
 title: "Polycrisis Mapping: Stakeholder Needs Analysis Report"
 subtitle: 
-authors: Theo Cox and Rufus Pollock
-date: "2023"
+author: Theo Cox and Rufus Pollock
+year: 2023
 project: "[[../projects/polycrisis-mapping|polycrisis-mapping]]"
 ---
 >An emerging set of organizations and individuals propose that an intersystemic approach̀ looking at the interactions between different natural and social systems̀ is vital to addressing global crises. And terms such as polycrisis are gaining both traction and attentioǹ some of it critical. 

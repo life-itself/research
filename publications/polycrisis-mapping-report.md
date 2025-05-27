@@ -1,8 +1,8 @@
 ---
 title: "A Boundary Makes a Map: Reflections from building a prototype directory of actors responding to the polycrisis"
 subtitle: 
-authors: Catherine Tran and Rufus Pollock
-date: "2023"
+author: Catherine Tran and Rufus Pollock
+year: 2023
 project: "[[../projects/polycrisis-mapping|polycrisis-mapping]]"
 ---
 

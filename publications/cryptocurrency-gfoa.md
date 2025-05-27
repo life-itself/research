@@ -1,7 +1,7 @@
 ---
 title: "Cryptocurrency: Fairy Tale or Future?"
 description: The late 2022 FTX scandal seems like a plausible end to the era of blockchain mania, so 2023 is a good time to look back and ask ourselves, 'What can we learn from crypto thus far?' After all, local governments will face increasing pressure to adopt new technologies, not just blockchain/cryptocurrency.
-authors: Liam Kavanagh and Shayne Kavanagh
+author: Liam Kavanagh and Shayne Kavanagh
 year: 2023
 ---
 
