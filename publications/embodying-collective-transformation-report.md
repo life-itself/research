@@ -46,5 +46,6 @@ In addition, the Appendix offers more information on:
 ## Full report
 
 Read and download the full report [here](https://drive.google.com/file/d/1XPQDZTGqxsVMRhv4AMR89wcfQg1yCWTF/view?usp=drive_link).
+![[../assets/Screenshot 2025-05-27 at 22.00.26.png]]
 
-![[../assets/Screenshot 2025-05-27 at 21.57.50.png]]
+![[../assets/Screenshot 2025-05-27 at 22.01.17.png]]
