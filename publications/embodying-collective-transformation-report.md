@@ -43,6 +43,14 @@ In addition, the Appendix offers more information on:
 - Detailed schedule and curriculum
 - Participants and impact of the program
 
+## Excerpts
+
+From participants' testimonials:
+
+>“We were not being taught in a simplistic way: ‘This is how you do community’, rather we were discovering together. There's something very subtle about this work. … It's like we're all each other's teachers. This kind of learning is so important in these times – to discover for ourselves how to get on with people, how to be a nourishing and positive and respecting part of a community.” - Stephen Reid
+
+>“It's like a microcosm, so everything that happens in this container is happening in the wider world. So how do we accept that, not need it to be completely fixed, not need things to be the way that we think they should be, but at the same time observe that this is happening, accept that it's happening and still gently nudge the system towards something that is more wholesome.” - Sen Zhan
+
 ## Full report
 
 Read and download the full report [here](https://drive.google.com/file/d/1XPQDZTGqxsVMRhv4AMR89wcfQg1yCWTF/view?usp=drive_link).
