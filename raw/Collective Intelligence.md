@@ -1,5 +1,5 @@
 ---
-title: 
+title: Collective Intelligence
 year: 
 url: https://lifeitself.org/blog/2020/08/28/collective-intelligence
 doctype: 

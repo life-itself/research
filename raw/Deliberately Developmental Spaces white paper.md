@@ -1,5 +1,5 @@
 ---
-title: 
+title: Deliberately Developmental Spaces white paper
 year: 
 url: 
 doctype: 
