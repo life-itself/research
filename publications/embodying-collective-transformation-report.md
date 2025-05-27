@@ -45,4 +45,4 @@ In addition, the Appendix offers more information on:
 
 ## Full report
 
-Read and download the full report here.
+![[../assets/ECT Report.pdf]]
