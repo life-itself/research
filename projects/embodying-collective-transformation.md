@@ -10,8 +10,8 @@ A series of 3 month-long residencies consisting of a 7-day intensive training in
 
 Our shared purpose is…
 
-- **Thrive**: _To_ **_support_** _each other to live whole and healthy lives
-- **Evolve**: _To deepen in_ **_practices_** _of personal and collective evolution
+- **Thrive**: _To_ **_support_** _each other to live whole and healthy lives_
+- **Evolve**: _To deepen in_ **_practices_** _of personal and collective evolution_
 - **Serve**: _To take collective_ **_action_** _to contribute to a world that works for all life_
 
 We’re passionate about coming together with others to embody the necessary personal and collective practices to address the challenges of our time and help create a world that works for all life. 
