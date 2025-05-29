@@ -8,7 +8,7 @@ announced:
 author: Liam Kavanagh; Rufus Pollock; Sylvie Barbier
 ---
 
-# Status Notes
+## Status Notes
 
 *Last updated 2025-05-29*
 
@@ -18,7 +18,7 @@ author: Liam Kavanagh; Rufus Pollock; Sylvie Barbier
 	- [ ] Draw description from https://lifeitself.org/blind-spots
 	- [ ] List outputs (starred in materials list below)
 
-# Materials
+## Materials
 
 - [x] 'Blind Spots 2019' Folder: https://drive.google.com/drive/u/1/folders/1Tvx3WjdQXGSQnqAVBmDpw2C20P565mw6
 	- [x] 'Blind Spots: An Introduction': https://docs.google.com/document/d/1lfNx8YpKRialxS-GtIdbf77XpM1tTh-EHFK-R_XOqVc/edit?tab=t.0#heading=h.oce60kqpdll2 **Looks like a draft of what is published on this page: https://lifeitself.org/blind-spots. Introducing the Blind Spots series.
