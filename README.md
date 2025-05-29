@@ -45,7 +45,7 @@ Some earlier research outputs include:
 
 ## How to join in
 
-Come to one of the weekly hangouts which take place on Friday at 5pm European. Details in the [[community|community calendar]]. If you're a good fit, you can then request to join the Research Whatsapp group, with plenty more opportunities for collaboration on research outputs.
+Come to one of the weekly hangouts which take place on Friday at 5pm European. Details in the [community calendar](https://lifeitself.org/community). If you're a good fit, you can then request to join the Research Whatsapp group, with plenty more opportunities for collaboration on research outputs.
 
 ### FAQs
 
