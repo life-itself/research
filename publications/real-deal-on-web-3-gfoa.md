@@ -3,7 +3,7 @@ title: What’s the Real Deal on Web3?
 subtitle: Examining the revenue potential and potential risks of blockchain and cryptocurrencies for local governments
 author: Theo Cox and Shayne Kavanagh
 year: 2023
-project: "[[web3-for-local-government|web3-for-local-government]]"
+project: "[[../projects/web3-for-local-government|web3-for-local-government]]"
 ---
 >Cryptocurrency and blockchain are part of the latest iteration of Internet technologies, broadly referred to as “Web3.” Web3 includes cryptocurrency but also other technologies that are characterized by decentralized, blockchain-based architectures. Non-fungible tokens (NFTs) are another example of a Web3 technology that has gotten widespread attention. A brief Internet search on “Bored Ape Yacht Club” gives an idea of the fervor NFTs have created.
 >

@@ -5,7 +5,7 @@ url:
 doctype: 
 published: 
 announced: 
-authors:
+author:
 ---
 
 # Status Notes

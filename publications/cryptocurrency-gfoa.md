@@ -9,4 +9,4 @@ The late 2022 FTX scandal seems like a plausible end to the era of blockchain ma
 
 Originally published in the [*Government Finance Review* (April 2023)](https://www.gfoa.org/materials/gfr0423-cryptocurrency)
 
-Related project [[web3-for-local-government|Web3 for Local Government]]
+Related project [[../projects/web3-for-local-government|Web3 for Local Government]]
