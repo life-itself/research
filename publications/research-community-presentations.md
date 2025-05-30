@@ -1,5 +1,5 @@
 ---
-title: Research Community presentations
+title: Research Community Presentations
 subtitle: 
 author: 
 year: 
