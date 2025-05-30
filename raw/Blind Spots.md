@@ -3,8 +3,8 @@ title: Blind Spots
 year: 2019
 url: https://lifeitself.org/initiatives/blind-spot-series
 doctype: project page
-published: 
-announced: 
+published: y
+announced: y
 author: Liam Kavanagh; Rufus Pollock; Sylvie Barbier
 ---
 
