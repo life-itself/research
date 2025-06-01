@@ -18,10 +18,18 @@ This has the nature of a "strategic effort" that we hope can force-multiply by c
 
 ## Publications
 
+- [*Developmental Spaces* website](https://developmentalspaces.org/)
 
 ## Background
 
+Find out more about the project:
 - [Project announce post](https://lifeitself.org/blog/2023/06/20/building-field-for-developmental-spaces)
+- [Preliminary presentation of project research](https://lifeitself.org/blog/2023/09/29/DDS-community-call%20with%20Boaz%20Feldman) (video recording and slides)
+
+Learn more about the concept of "Deliberately Developmental Spaces":
+- Rufus Pollock and Theo Cox, ['Deliberately Developmental Spaces: A Key to Addressing the Metacrisis?'](https://lifeitself.org/blog/2021/10/05/deliberately-developmental-spaces-a-key-to-addressing-the-metacrisis) (2021) 
+
+
 
 ## Partners
 

@@ -9,5 +9,7 @@ authors: Liam Kavanagh
 ---
 
 # Status Notes
+
+- [ ] Review materials
 - [ ] Create publication page:
   - [ ] White paper: https://drive.google.com/file/d/1NHBDtw3MplEuleEQN5oyPJtJ-rfQCgmX/view
