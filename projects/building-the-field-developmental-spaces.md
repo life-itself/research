@@ -25,11 +25,10 @@ This has the nature of a "strategic effort" that we hope can force-multiply by c
 Find out more about the project:
 - [Project announce post](https://lifeitself.org/blog/2023/06/20/building-field-for-developmental-spaces)
 - [Preliminary presentation of project research](https://lifeitself.org/blog/2023/09/29/DDS-community-call%20with%20Boaz%20Feldman) (video recording and slides)
+- [Deliberately Developmental Spaces Steering Committee - slides](https://drive.google.com/file/d/1rRtXDMHvKNk21VkszAuFnfY0J5_-OaLN/view?usp=drive_link) (September 2024). A summary of the state of the Steering Committee which was seeded by this project. 
 
 Learn more about the concept of "Deliberately Developmental Spaces":
 - Rufus Pollock and Theo Cox, ['Deliberately Developmental Spaces: A Key to Addressing the Metacrisis?'](https://lifeitself.org/blog/2021/10/05/deliberately-developmental-spaces-a-key-to-addressing-the-metacrisis) (2021) 
-
-
 
 ## Partners
 
