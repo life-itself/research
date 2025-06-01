@@ -6,11 +6,11 @@ doctype: project page
 published: N
 announced: 
 author: 
-processed:
+processed: true
 ---
 ## Status Notes
 
-- [ ] Review materials 
+- [x] Review materials 
 - [x] Publish project page and any relevant publications pages with outputs:
 	- [x] Create a page in projects folder. Use [[../templates/project|project]] template and look at other project pages as examples.
 	  - [x] Draw description from:
@@ -43,10 +43,6 @@ processed:
 - [ ] DDS Report Phase 1: https://docs.google.com/document/d/1cFJI27jQJWJ0IK7MKwdZylX9zgPHK8Vi6k2M6aKoHSU/edit?tab=t.0#heading=h.o169ffvrixh1 **Does this need further editing or can we publish?**
 - [ ] Report: https://drive.google.com/drive/u/1/folders/1nmUvFe6txWrJ15jw0epkLRN5E1lhc8Gx
 - [x] DDP resources for background reading: https://docs.google.com/spreadsheets/d/1q8dxuce8Q4cz_yVVWVFYNig4LSyt7wGPNRzt8jcqzFI/edit?gid=0#gid=0 **Add any other materials from this [folder](https://drive.google.com/drive/u/1/folders/1R4I2qNi-YoJZApmTNsYkuBh85YjM73ja) which are not listed and publish/share this list? -- MIGRATED to https://github.com/life-itself/community/issues/1162**
-
-# Building the Field for Deliberately Developmental Spaces 
-
-This project is a very first step in the field-building efforts of a collaboration between Life Itself, the Fetzer Institute, Commonweal and the Ekskäret Foundation. Its focus is on an initial "survey of the field" to map stakeholders and programs and start forging connections and awareness. Focused on programs for youth and young adults (15-25 years old) in the US and Europe, we will be exploring what it looks like to be "deliberately developmental", profile relevant organizations, looking at their programs, approach and philosophy.
 
 
 
