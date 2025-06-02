@@ -54,6 +54,6 @@ From participants' testimonials:
 ## Full report
 
 Read and download the full report [here](https://drive.google.com/file/d/1XPQDZTGqxsVMRhv4AMR89wcfQg1yCWTF/view?usp=drive_link).
-![[../assets/Screenshot 2025-05-27 at 22.00.26.png]]
+![[../assets/ECT-report-p1.png]]
 
-![[../assets/Screenshot 2025-05-27 at 22.01.17.png]]![[../assets/Screenshot 2025-05-27 at 22.02.54.png]]
+![[../assets/ECT-report-p2.png]]![[../assets/ECT-report-p3.png]]
