@@ -206,7 +206,7 @@ This could be done through a dialogos, but only if everyone's already consumed t
 
 Martin I wholly agree with your last point — an hour is too short for anything but the smallest meeting to be productive. So maybe you have misunderstood me? I'm not saying that we have study groups in the Friday sessions. I am suggesting that the Friday sessions can be used, among other things, to propose a study group for a different time, as we have done before. The study group initiator and members can collectively agree, for example as you suggest, to do studying in advance, and I thoroughly support this as a good idea.
 
-## Inspirations or who we’d like to be like {#inspirations-or-who-we’d-like-to-be-like}
+## Inspirations or who we'd like to be like
 
 For more on inspirations see this excalidraw [https://link.excalidraw.com/l/9u8crB2ZmUo/5IkQ56H4ERp](https://link.excalidraw.com/l/9u8crB2ZmUo/5IkQ56H4ERp)  (NB: this is poorly embedded into [lifeitself.org/research](http://lifeitself.org/research) atm\!)
 
