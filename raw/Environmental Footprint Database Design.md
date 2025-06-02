@@ -3,21 +3,22 @@ title: Environmental Footprint Database Design
 year: 2022
 url: 
 doctype: 
-published: 
+published: true
 announced: N
-authors: 
+author: Theo Cox; Rufus Pollock
 processed:
 ---
+## Status Notes
 
-# Status Notes
+- [x] Review materials
+- [x] Publish project/publications page(s)
+- [ ] Announce? 
 
-- [ ] Review materials
-- [ ] Publish project/publications page(s)
+## Materials
 
-# Environmental Footprint Database Design
-
-Create a framework for a new, centrally overseen EU database for Environmental Footprint (EF) data.
-
-Until today EF-compliant datasets have been developed under the lead of the EC, through different tendering procedures with limited use rights. Such datasets have been made available through nodes of the Life Cycle Data Network (LCDN). While this framework was suitable for the context of the EF pilot and transition phase, now that the EF methods are progressively referenced in relevant policy initiatives and are expected to be more widely used, it is necessary to establish a different governance to ensure broader uptake of the EF methods.
-
-Besides the substantially reducing the costs for businesses, the availability of free or against a proportional cost fee access high quality secondary datasets would represent an advantage especially for SMEs, as the hurdles to identify and purchase suitable secondary datasets typically are higher for SMEs than for bigger companies, which often have more experience and in-house expertise in this area.
+- [x] EF Database design project folder: https://drive.google.com/drive/folders/19_k8-Y7ALuZMP0O-77ttXY-9ZM2bcgSo
+- [x] A10: https://docs.google.com/document/d/1sqrHNGO5cBExmXYEwknsJIxA08PCS2GPKoGybFozSDY/edit?tab=t.0 **✅ Took project description from purpose and principles summary**
+- [x] Project proposal: https://drive.google.com/file/d/1x80KJh0ranTU7omKC14BmX3rpjQC-h81/view?usp=drive_link
+- [x] Epic issue: https://github.com/life-itself/studio/issues/85
+- [x] LCA Business Model Options report issue: https://github.com/life-itself/studio/issues/108 **Doesn't link to final report**
+- [x] Report on Business Models: https://docs.google.com/document/d/1eeo5fSgZjihgVf7iD_NO0n6iPy0g0QWbqZlEiKDApXM/edit?tab=t.0#heading=h.70ah1hkx6n10 **✅ 2025-06-02 Created PDF version of report and published at [[../publications/business-models-environmental-footprint-data|business-models-environmental-footprint-data]]
