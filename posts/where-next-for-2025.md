@@ -75,7 +75,7 @@ Specifically:
 1. **[V] Name and Identity**: Establish a clear name for the group **🔑Life Itself Research**  
 2. **[V] Website Presence**: List members and outputs in ways that present well to the outside world, and members are in control of.  
 3. **[G,P] Provide clear pathways for involvement** on the website and elsewhere  
-4. **[V,G,P] Vision Statement**: have a clear vision for the group stated both in terms of the Frankfurt School analogy (see [Inspirations below](#inspirations-…-or-who-we’d-like-to-be-like)) and in terms of what we're working towards in terms of sensemaking. **🚧 in terms of second point we already have Draft Second Renaissance Research Plan [Discussion below in appendix]**  
+4. **[V,G,P] Vision Statement**: have a clear vision for the group stated both in terms of the Frankfurt School analogy (see [Inspirations below](#inspirations-or-who-we’d-like-to-be-like)) and in terms of what we're working towards in terms of sensemaking. **🚧 in terms of second point we already have Draft Second Renaissance Research Plan [Discussion below in appendix]**  
    * **Previous: [https://lifeitself.org/research](https://lifeitself.org/research) (updated/simplified late 2023) and [https://lifeitself.org/research-community](https://lifeitself.org/research-community) (original early 2023\)**  
 5. **\[V,P\] Regular Events**: Host hackathons or similar events to foster output production beyond regular meetings.  
 6. **\[V,P\] Annual Journal / Essay compendium(?)**: Maybe create a journal or some kind of annual or even twice yearly special output that contains essays that people have written on particular themes and have that particularly printed and promoted  
@@ -204,9 +204,9 @@ This could be done through a dialogos, but only if everyone's already consumed t
 
 ### Simon comment on this
 
-@martin I wholly agree with your last point — an hour is too short for anything but the smallest meeting to be productive. So maybe you have misunderstood me? I'm not saying that we have study groups in the Friday sessions. I am suggesting that the Friday sessions can be used, among other things, to propose a study group for a different time, as we have done before. The study group initiator and members can collectively agree, for example as you suggest, to do studying in advance, and I thoroughly support this as a good idea.
+Martin I wholly agree with your last point — an hour is too short for anything but the smallest meeting to be productive. So maybe you have misunderstood me? I'm not saying that we have study groups in the Friday sessions. I am suggesting that the Friday sessions can be used, among other things, to propose a study group for a different time, as we have done before. The study group initiator and members can collectively agree, for example as you suggest, to do studying in advance, and I thoroughly support this as a good idea.
 
-## Inspirations … or who we’d like to be like {#inspirations-…-or-who-we’d-like-to-be-like}
+## Inspirations or who we’d like to be like {#inspirations-or-who-we’d-like-to-be-like}
 
 For more on inspirations see this excalidraw [https://link.excalidraw.com/l/9u8crB2ZmUo/5IkQ56H4ERp](https://link.excalidraw.com/l/9u8crB2ZmUo/5IkQ56H4ERp)  (NB: this is poorly embedded into [lifeitself.org/research](http://lifeitself.org/research) atm\!)
 
