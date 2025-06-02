@@ -1,7 +1,7 @@
 ---
 title: Designing Incentive Mechanisms for Environmental Data Sharing
 subtitle: 
-image: /assets/giz-report-cover.png
+image: /assets/giz-report-cover-half.png
 contributors: Theo Cox; Rufus Pollock
 start: "2022"
 end: "2022"
