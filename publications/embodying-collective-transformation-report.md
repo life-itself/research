@@ -5,6 +5,8 @@ author: Karl Steyaert, Jocelyn Ames, Catherine Tran and Nadine Helm
 project: "[[../projects/embodying-collective-transformation|embodying-collective-transformation]]"
 year: 2024
 ---
+Read and download the full report [here](https://drive.google.com/file/d/1XPQDZTGqxsVMRhv4AMR89wcfQg1yCWTF/view?usp=drive_link).
+
 ## Abstract
 
 Embodying Collective Transformation (ECT) was a 3-month experiment in creating a ‘conscious community’ or deliberately developmental space: an environment for conscious engagement in inner and relational development practices for systemic transformation. Designed and hosted by a 4-person team, it took place in Autumn 2022 at the Life Itself Praxis Hub in Bergerac, France. Over the course of the 3 months there were over 30 participants exploring how to live and work together, and to address the social and ecological challenges of our times. 
@@ -54,6 +56,7 @@ From participants' testimonials:
 ## Full report
 
 Read and download the full report [here](https://drive.google.com/file/d/1XPQDZTGqxsVMRhv4AMR89wcfQg1yCWTF/view?usp=drive_link).
+
 ![[../assets/ECT-report-p1.png]]
 
 ![[../assets/ECT-report-p2.png]]![[../assets/ECT-report-p3.png]]
