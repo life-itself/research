@@ -1,6 +1,7 @@
 ---
 title: Incentivising Environmental Data Generation and Access
 subtitle: 
+description: This report provides strategic insights from those workshops and our own expertise inincentive design for data access. It aims to inform decisions on the value and direction of thedevelopment of incentive models for these goals.
 author: Theo Cox and Rufus Pollock
 year: 2022
 project: "[[../projects/environmental-data-sharing-incentives|environmental-data-sharing-incentives]]"

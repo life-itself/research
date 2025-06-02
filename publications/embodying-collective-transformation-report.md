@@ -1,6 +1,7 @@
 ---
 title: "Embodying Collective Transformation: Learnings from a 3-month experiment in creating conscious community"
 subtitle: 
+description: "Embodying Collective Transformation (ECT) was a 3-month experiment in creating a ‘conscious community’ or deliberately developmental space: an environment for conscious engagement in inner and relational development practices for systemic transformation.This report details the design, implementation and learnings from this innovative program."
 author: Karl Steyaert, Jocelyn Ames, Catherine Tran and Nadine Helm
 project: "[[../projects/embodying-collective-transformation|embodying-collective-transformation]]"
 year: 2024

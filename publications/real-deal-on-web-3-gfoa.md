@@ -1,6 +1,7 @@
 ---
 title: What’s the Real Deal on Web3?
-subtitle: Examining the revenue potential and potential risks of blockchain and cryptocurrencies for local governments
+subtitle: 
+description: Examining the revenue potential and potential risks of blockchain and cryptocurrencies for local governments
 author: Theo Cox and Shayne Kavanagh
 year: 2023
 project: "[[../projects/web3-for-local-government|web3-for-local-government]]"
@@ -11,6 +12,8 @@ project: "[[../projects/web3-for-local-government|web3-for-local-government]]"
 >
 >This series aims to help local governments think about the revenue potential of Web3, as well as potential risks. Web3 technologies are complex, and their implications are not well understood.
 
-![[../assets/GFR0623-Web3.pdf]]
+Read and download the article [here](https://drive.google.com/file/d/1b7ybvEDN4AMppw7fRdnMvXFr-Jg6Cxbq/view?usp=drive_link). 
+
+![[../assets/real-deal-on-web3.png]]
 
 Originally published in the [*Government Finance Review* (June 2023)](https://www.gfoa.org/materials/gfr0623-web3)
