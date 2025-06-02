@@ -37,3 +37,9 @@
   "showSidebar": true,
   "showEditLink": true
 }
+{
+  "contentExclude": [
+    "/raw",          // Exclude entire raw directory
+    "/templates"        // Exclude entire templates directory
+  ]
+}
