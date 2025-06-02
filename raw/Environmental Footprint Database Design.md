@@ -6,7 +6,7 @@ doctype:
 published: true
 announced: N
 author: Theo Cox; Rufus Pollock
-processed:
+processed: true
 ---
 ## Status Notes
 
