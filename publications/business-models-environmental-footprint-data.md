@@ -1,11 +1,13 @@
 ---
 title: Business Model Options for an Environmental Footprint Database
 subtitle: 
+description: "This report sets out 3 business model options for an EF database. For each we have detailed the key building blocks of the model: revenue generation, supplier remuneration and legal structure. We have also estimated key financial figures such as revenue, costs etc."
 author: Theo Cox and Rufus Pollock
 year: 2023
 project: "[[../projects/environmental-footprint-database-design|environmental-footprint-database-design]]"
 ---
 Read and download the full report [here](https://drive.google.com/file/d/1Iw114M-yJoNzazqwOOhaV6sndLCpbtPB/view?usp=drive_link).
+
 ## Executive Summary
 
 Finding a business model for the environmental footprint database is important: it will cost significant resources to sustain and it has an important public interest role across a broad area of policy-making and society more generally – it is essential infrastructure to any green transition.
