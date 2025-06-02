@@ -33,13 +33,15 @@
         "href": "https://github.com/life-itself/research"
       }
     ]
-  },
-  "showSidebar": true,
-  "showEditLink": true
-}
-{
+    {
   "contentExclude": [
     "/raw",          // Exclude entire raw directory
     "/templates"        // Exclude entire templates directory
   ]
 }
+  },
+  "showSidebar": true,
+  "showEditLink": true
+
+}
+
