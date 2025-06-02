@@ -28,17 +28,20 @@ More recent research outputs include:
 
 - [Second Renaissance No 1: What is a second renaissance and why is it relevant in this moment of escalating crisis (2024)](https://secondrenaissance.net/paper)
 - [Second Renaissance No 2: How paradigmatic change and a second renaissance can come about (2024)](https://secondrenaissance.net/paper)
-- [Wiser Technology: Technology and a Second Renaissance Part I & II (2024)](https://news.secondrenaissance.net/p/wiser-technology-technology-and-a)
+- [[publications/polycrisis-to-metacrisis-white-paper|'From Polycrisis to Metacrisis: A Short Introduction' (2025)]] 
 
-Some earlier research outputs include:
+Some earlier research projects include:
 
+- [[projects/cohere-plus-ecosystem-mapping|Cohere+: Cohering the Ecosystem of Paradigmatic Social Change Organisations in Europe]] 2024
+- [[projects/polycrisis-mapping|Mapping Responses to the Polycrisis]] 2023
+- [[projects/building-the-field-developmental-spaces|Building the Field for Developmental Spaces]] 2023
+- [[projects/web3-for-local-government|Unpacking the Implications of Web3 for Local Government]] 2023
+- [[projects/embodying-collective-transformation|Embodying Collective Transformation]] 2022
+- [[projects/environmental-data-sharing-incentives|Designing Incentive Mechanisms for Environmental Data Sharing]] 2022
+- [[projects/environmental-footprint-database-design|Environmental Footprint Database Design]] 2022
 - [Making Sense of Web3 and Crypto](https://web3.lifeitself.org/)  2022
-- [Enhancing the Economics of Cooperatives](https://lifeitself.org/labs)  2022
-- [Incentive Mechanisms for Environmental Data Sharing](https://lifeitself.org/labs) 2022
-- [Can new social and digital technologies transform governance?](https://lifeitself.org/labs)  2022
-- [Economics for the Information Age](https://lifeitself.org/labs)  2022
-- [Unpacking the Implications of Web3 for Local Government](https://lifeitself.org/labs) 2022
-- [Collective Intelligence: Towards a Conversation](https://lifeitself.org/blog/2020/08/28/collective-intelligence) 2019
+
+
 
 ![](/assets/viz-research-topics-2023.png)
 
