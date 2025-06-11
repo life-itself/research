@@ -16,7 +16,7 @@ Mapping those actors responding to the polycrisis has been identified as a highl
 
 - [Directory of actors responding to polycrisis in the Global South](https://airtable.com/appihB5LGqUeA5bl5/shrLQk7H2HhKDmd6P/tbllP3ZWZvi9E1QaY)
 - Theo Cox and Rufus Pollock, [[../publications/polycrisis-mapping-stakeholder-needs-analysis|'Polycrisis Mapping: Stakeholder Needs Analysis Report']] (2023)
-- Catherine Tran and Rufus Pollock, [[../assets/A Boundary Makes a Map - ORA Report on Building a Prototype Directory of Polycrisis Actors - Life Itself.pdf|'A Boundary Makes a Map: Reflections from building a prototype directory of actors responding to the polycrisis']] (2023)
+- Catherine Tran and Rufus Pollock, [[../publications/polycrisis-mapping-report|'A Boundary Makes a Map: Reflections from building a prototype directory of actors responding to the polycrisis']] (2023)
 
 ## Background
 
