@@ -6,6 +6,7 @@ doctype:
 published: 
 announced: 
 authors: Liam Kavanagh
+processed: true
 ---
 
 # Status Notes
