@@ -6,7 +6,7 @@ doctype: project page
 published: y
 announced: y
 author: Liam Kavanagh; Rufus Pollock; Sylvie Barbier
-processed:
+processed: true
 ---
 
 ## Status Notes
@@ -14,10 +14,10 @@ processed:
 *Last updated 2025-05-29*
 
 - [x] Review materials (see below)
-- [ ] Publish project page
+- [x] Publish project page
 	- [x] Create a page in projects folder. Use [[../templates/project|project]] template and look at other project pages as examples.
 	- [x] Draw description from https://lifeitself.org/blind-spots
-	- [ ] List outputs (starred in materials list below)
+	- [x] List outputs (starred in materials list below)
 
 ## Materials
 

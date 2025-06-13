@@ -6,7 +6,7 @@ doctype: project page
 published: true
 announced: N
 authors: 
-processed:
+processed: true
 ---
 
 # Status Notes
@@ -16,9 +16,6 @@ Reviewed outputs and materials in [spreadsheet](https://docs.google.com/spreadsh
 - [x] Publish project/publications page(s) with all relevant outputs
   - [x] Emergent Power report **2025-05-21 Done here:** [[../publications/emergent-power-report|emergent-power-report]]
   - [x] Directory and visual map
-- [ ] Announce final mapping outputs
-- [ ] Write an accompanying blurb/explanatory text for the visual interactive map
-
 
 # Cohere+ Ecosystem Mapping
 
