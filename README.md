@@ -41,14 +41,18 @@ Some earlier research projects include:
 - [[projects/environmental-footprint-database-design|Environmental Footprint Database Design]] 2022
 - [Making Sense of Web3 and Crypto](https://web3.lifeitself.org/)  2022
 
-
-
 ![](/assets/viz-research-topics-2023.png)
 
 
 ## How to join in
 
 Come to one of the weekly hangouts which take place on Friday at 5pm European. Details in the [community calendar](https://lifeitself.org/community). If you're a good fit, you can then request to join the Research Whatsapp group, with plenty more opportunities for collaboration on research outputs.
+
+### How to schedule a session
+
+*For participants in the research collective*
+
+See this [google doc for the how to schedule and the current schedule of talks](https://docs.google.com/document/d/14wWKfP41n3SJ2ICZzjU3OMmybd9zp5BZop12Ke2ypSg/edit?tab=t.0)
 
 ### FAQs
 
