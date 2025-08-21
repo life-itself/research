@@ -12,9 +12,16 @@ Our focus is on the field of "paradigmatic" change agents in Europe: those who c
 
 ## Publications
 
+Led by Life Itself:
+
 - [Interactive visual map of the Paradigmatic Social Change ecosystem](https://secondrenaissance.net/ecosystem/cohere/map)
 - [Directory of organisations in the Paradigmatic Social Change ecosystem](https://secondrenaissance.net/ecosystem/cohere)
 - Catherine Tran and Elisa Paka, [[../publications/emergent-power-report|'Emergent Power: Key Challenges and Capacities for Paradigmatic Change Agents']] (2024)
+
+Led by our project partners:
+
+- Claudine Villemot-Kienzle, Bettina Geiken, and the Cohere+ team, [_Communities of Coherence: A Guide for Practitioners_]([url](https://totallythriving.online/coherence-guide/)) (2024). A comprehensive guide to coherence and its role in creating effective systemic change.
+- [Cohere+ learning platform]([url](https://totallythriving.online/mini-course-library-v2/)) featuring free online, self-paced mini-courses in five key learning series: Personal Coherence; Wise Relating; Communities of Coherence; Social Architecture; and Collective Voice and Impact. (Courses authored by: Bettina Geiken; Claudine Villemot-Kienzle; Kara Stonehouse; Pieter Wackers.) 
 
 ## Background
 
