@@ -31,4 +31,4 @@ Our partners on this project are:
 
 This project is co-funded by the Erasmus+ programme of the European Union.
 
-![[/assets/EN Co-funded by the EU_BLACK.jpg]]
+![[/assets/cohere and co-funded EU logo xs.jpg]]
