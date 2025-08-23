@@ -21,9 +21,9 @@ Led by Life Itself:
 
 Led by our project partners:
 
-- Emerge, Profiles of visionary changemakers and essays on key tools and methodologies for transformative social change, listed [here]([url](https://docs.google.com/document/d/1qVfu0Wt5_rVhYU4f2zvAnNYX3kT3uKcL5AyERWC2gYI/edit?tab=t.0)).
-- Claudine Villemot-Kienzle, Bettina Geiken, and the Cohere+ team, [_Communities of Coherence: A Guide for Practitioners_]([url](https://totallythriving.online/coherence-guide/)) (2024). _A comprehensive guide to coherence and its role in creating effective systemic change._
-- [Cohere+ learning platform]([url](https://totallythriving.online/mini-course-library-v2/)) _featuring free online, self-paced mini-courses in five key learning series: Personal Coherence; Wise Relating; Communities of Coherence; Social Architecture; and Collective Voice and Impact. (Courses authored by: Bettina Geiken; Claudine Villemot-Kienzle; Kara Stonehouse; Pieter Wackers.)_
+- Profiles of visionary changemakers and essays on key tools and methodologies for transformative social change, listed [here]([url](https://docs.google.com/document/d/1qVfu0Wt5_rVhYU4f2zvAnNYX3kT3uKcL5AyERWC2gYI/edit?tab=t.0)). [Various authors, including Leigh Biddlecome and Ivo Mensch. Published by Emerge.]
+- Claudine Villemot-Kienzle, Bettina Geiken, and the Cohere+ team, [_Communities of Coherence: A Guide for Practitioners_]([url](https://totallythriving.online/coherence-guide/)) (2024). [A comprehensive guide to coherence and its role in creating effective systemic change.]
+- [Cohere+ learning platform]([url](https://totallythriving.online/mini-course-library-v2/)) [Featuring free online, self-paced mini-courses in five key learning series: Personal Coherence; Wise Relating; Communities of Coherence; Social Architecture; and Collective Voice and Impact. Courses authored by: Bettina Geiken; Claudine Villemot-Kienzle; Kara Stonehouse; Pieter Wackers.]
 
 ## Background
 
