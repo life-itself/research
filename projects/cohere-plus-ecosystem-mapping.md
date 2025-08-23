@@ -40,3 +40,7 @@ Our partners on this project are:
 This project is co-funded by the Erasmus+ programme of the European Union.
 
 ![[/assets/cohere and co-funded EU logo xs.jpg]]
+
+## Disclaimer
+
+The Cohere+ project is a collaboration between: Life Itself, The Hague Center for Global Governance, Innovation and Emergence; Institute for Integral Studies, Freiburg; Emerge; and the Ekskäret Foundation. It was co-funded by the Erasmus+ programme of the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.
