@@ -39,4 +39,4 @@ Read and download the full report [here](https://drive.google.com/file/d/11b__Wl
 
 This research is part of the Cohere+ project, a collaboration between: Life Itself, The Hague Center for Global Governance, Innovation and Emergence; Institute for Integral Studies, Freiburg; Emerge; and the Ekskäret Foundation. It was co-funded by the Erasmus+ programme of the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.
 
-![[../assets/cohere and co-funded EU logo xs.jpg]]
+![[/assets/cohere and co-funded EU logo xs.jpg]]
