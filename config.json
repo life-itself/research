@@ -30,6 +30,7 @@
       }
     ]
   },
+  "theme": "lessflowery",
   "contentExclude": [
     "/raw",
     "/templates"
