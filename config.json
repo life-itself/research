@@ -4,6 +4,10 @@
     "title": "Life Itself Research",
     "links": [
       {
+        "href": "link",
+        "name": "link"
+      },
+      {
         "href": "https://lifeitselfresearch.substack.com/",
         "name": "Newsletter"
       },
