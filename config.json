@@ -37,9 +37,9 @@
   "theme": "lessflowery",
   "contentExclude": [
     "/raw",
-    "/templates"
+    "/templates",
+    "/docs/plans"
   ],
   "showSidebar": true,
   "showEditLink": true
 }
-
