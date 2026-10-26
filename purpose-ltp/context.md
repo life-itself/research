@@ -15,7 +15,7 @@ Sources:
 
 - [pattern.md](../pattern.md): the governance charter, signed off April 2026 (Google Doc read 2026-10-22).
 - [Where Next for 2025](https://research.lifeitself.org/posts/where-next-for-2025) (Jan 2025 SCQH; local copy at [posts/where-next-for-2025.md](../posts/where-next-for-2025.md), read 2026-10-22).
-- The SCQ intake thread's situation and complication (22 Oct 2026), drawn from the [source inventory](../ref/sources.md).
+- The SCQ intake thread's situation and complication (22 Oct 2026), drawn from the [source inventory](https://github.com/life-itself/sor-community/blob/main/initiatives/research-group/sources.md) (private repo).
 
 Rufus says the first two sources are "fairly accurate".
 

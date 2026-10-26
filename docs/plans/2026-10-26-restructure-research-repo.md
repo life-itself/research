@@ -56,7 +56,7 @@ From sor-community `initiatives/research-group/`:
 | `history.md` | `history.md` | core |
 | `vision.md` | `vision.md` | core |
 | `pattern.md` | `pattern.md` | core: the governance charter |
-| `sources.md` | `ref/sources.md` | reference |
+| `sources.md` | stays in sor-community (private) for now | holds meeting notes, Google Doc links and a contact address. Needs a public-safe version before it can move to `ref/` (Rufus to decide, 26 Oct) |
 | `sub-circle-charter.md` | `ref/sub-circle-charter.md` | template that goes with the pattern |
 | `archive/inspirations-board-2023.jpg` | `assets/inspirations-board-2023.jpg` | used by `vision.md` |
 | `archive/where-next-for-2025.md` | none | already published here as `posts/where-next-for-2025.md`. Keep the post and drop the copy, after checking they match |

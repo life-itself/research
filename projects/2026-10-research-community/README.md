@@ -5,7 +5,7 @@ Source: conversation with Rufus, 22–23 Oct 2026. Beads epic: `calls-kwd`.
 
 How the research group fits into Seeds of Renaissance (SoR). The work splits into two SCQs that share one background:
 
-- **Shared background:** the group's history and sources, kept once in [history.md](../../history.md) and [sources.md](../../ref/sources.md) (Research Group initiative).
+- **Shared background:** the group's history and sources, kept once in [history.md](../../history.md) and [sources.md](https://github.com/life-itself/sor-community/blob/main/initiatives/research-group/sources.md) (private repo) (Research Group initiative).
 - **SCQ A: what the research group is for and how it is evolving.** Owned by the purpose LTP in [`purpose-ltp/`](../../purpose-ltp/context.md). Summarised below; not repeated.
 - **SCQ B: research's web and knowledge presence and its place in SoR.** This file. Takes A's outputs as inputs and does not reopen them.
 
