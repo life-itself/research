@@ -1,0 +1,1650 @@
+schema_version: 1
+project: Research group purpose
+driver: rufus
+participants:
+  rufus: Rufus
+  bob: Bob Bunge
+  jonah: Jonah Wilberg
+active_tree: current_reality
+trees:
+  goal:
+    nodes:
+      - id: g1
+        kind: goal
+        text: >-
+          The research group clarifies the paradigm shift (what today's paradigm is,
+          where it came from, what is emerging and how transitions happen) and seeds
+          that clarity into the Seeds of Renaissance community and the wider culture.
+        label: Clarify the paradigm shift and seed that clarity into SoR and the wider culture
+        status: accepted
+        accepted_by: [rufus, bob]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+          - {by: bob, attribution: explicit, mode: voice}
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: csf1
+        kind: critical_success_factor
+        text: >-
+          Research outputs of sufficient quality, on the questions that matter for the
+          inquiry, get finished. (Which outputs and what quality bar are still open.)
+        label: Quality research outputs on the questions that matter get finished
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+          - {by: rufus, attribution: explicit, mode: text}
+      - id: csf5
+        kind: critical_success_factor
+        text: Finished research outputs are published regularly.
+        label: Finished outputs are published regularly
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: text}
+      - id: csf3
+        kind: critical_success_factor
+        text: >-
+          The group practises the kind of collective sensemaking it describes: not
+          purely rational, and joining doing and being.
+        label: The group practises the collective sensemaking it describes
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+          - {by: bob, attribution: explicit, mode: voice}
+      - id: csf2
+        kind: critical_success_factor
+        text: >-
+          The group's ideas reach, and are taken up by, the Seeds of Renaissance
+          community and a chosen first audience beyond it.
+        label: Ideas reach and are taken up by SoR and a chosen first audience beyond it
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: jonah, attribution: explicit, mode: voice}
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: nc1
+        kind: necessary_condition
+        text: >-
+          The first audience beyond the Seeds of Renaissance community (for example policy
+          people, the general public or scholars) and the channels for reaching it are
+          chosen.
+        label: First audience beyond SoR, and its channels, are chosen
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: jonah, attribution: explicit, mode: voice}
+      - id: csf4
+        kind: critical_success_factor
+        text: >-
+          There is a steady flow of committed contributors: a stable core who give time
+          regularly, plus newcomers, with the Seeds of Renaissance community as the
+          on-ramp.
+        label: Steady flow of committed contributors, with SoR as the on-ramp
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+          - {by: rufus, attribution: explicit, mode: text}
+    links:
+      - id: l1
+        from: [csf1]
+        to: g1
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: l5
+        from: [csf5]
+        to: g1
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: text}
+      - id: l3
+        from: [csf3]
+        to: g1
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: l2
+        from: [csf2]
+        to: g1
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: l6
+        from: [nc1]
+        to: csf2
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: jonah, attribution: explicit, mode: voice}
+      - id: l4
+        from: [csf4]
+        to: g1
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+    backlog:
+      - ref: g1
+        work: >-
+          Hold as a working bet and review at the quarterly reflection (option A as a
+          stance). Options and debate in goal-options.md.
+      - ref: csf1
+        work: Say which kinds of output count and what quality bar applies.
+      - ref: csf3
+        work: >-
+          Bob holds that collective cognition is itself the main output. Possible
+          Evaporating Cloud against csf1/csf5 (outputs vs conversation); see
+          goal-options.md.
+      - ref: l3
+        work: test_necessity
+      - ref: l4
+        work: test_necessity
+      - ref: nc1
+        work: Choose the first audience (policy, public, scholars, ...).
+  current_reality:
+    nodes:
+      - id: ude1
+        kind: undesirable_effect
+        text: Few research outputs get finished; most work stays as talks and discussion.
+        label: Few research outputs get finished; most work stays as talks and discussion
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [csf1]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: ude2
+        kind: undesirable_effect
+        text: What does get finished isn't reliably published or findable; research.lifeitself.org is stale.
+        label: Finished work isn't reliably published or findable; research.lifeitself.org is stale
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [csf5]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: ude3
+        kind: undesirable_effect
+        text: The Friday speaker series leaves no lasting written harvest.
+        label: The Friday speaker series leaves no lasting written harvest
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [csf1, csf5]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: ude4
+        kind: undesirable_effect
+        text: There is no agreed set of research questions, so sessions don't build on each other.
+        label: No agreed set of research questions, so sessions don't build on each other
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [csf1]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: ude5
+        kind: undesirable_effect
+        text: Research ideas barely reach the SoR community, and there is no chosen audience beyond it.
+        label: Research ideas barely reach SoR, and there is no chosen audience beyond it
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [csf2]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: ude6
+        kind: undesirable_effect
+        text: "Steward capacity is thin: Bob is lead steward and Jonah has less capacity at the moment."
+        label: "Steward capacity is thin: Bob is lead steward; Jonah has less capacity at the moment"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [csf4]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: ude7
+        kind: undesirable_effect
+        text: Most of the 8-15 regulars rarely move from attending to contributing.
+        label: Most of the 8-15 regulars rarely move from attending to contributing
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [csf4]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: ude8
+        kind: undesirable_effect
+        text: There is no budget, so nothing pays for finishing or editing work.
+        label: There is no budget, so nothing pays for finishing or editing work
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [csf1]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: ude9
+        kind: undesirable_effect
+        text: Members disagree on what to prioritise (outputs vs conversation), which splits effort.
+        label: Members disagree on priorities (outputs vs conversation), which splits effort
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [csf1, csf3]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+          - {by: bob, attribution: explicit, mode: voice}
+      - id: ude10
+        kind: undesirable_effect
+        text: The group doesn't grow beyond the 8-15 regulars as much as it could.
+        label: The group doesn't grow beyond the 8-15 regulars as much as it could
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [csf4]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: text}
+      - id: ude11
+        kind: undesirable_effect
+        text: The forum doesn't accumulate discussion or draw many new people.
+        label: The forum doesn't accumulate discussion or draw many new people
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [csf2, csf4]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: text}
+      - id: ude12
+        kind: undesirable_effect
+        text: >-
+          We aren't getting as many high-quality participants as we'd like, on the
+          forum or in Friday meetings. Numbers are growing, but slowly, and it's not
+          clear why.
+        label: Too few high-quality participants on the forum or in Friday meetings; growth is slow
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [csf4]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: text}
+      - id: c1
+        kind: cause
+        text: >-
+          Operations are poor and full of friction, e.g. no automatic calendar invites,
+          and it's hard to get recordings onto YouTube.
+        label: Operations are poor and full of friction (no auto calendar invites; recordings hard to post)
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: text}
+      - id: c2
+        kind: cause
+        text: >-
+          The forum platform is so-so and has some complexities, and the move to Forum
+          Magnum hasn't happened yet.
+        label: The forum platform is so-so and complex; the move to Forum Magnum hasn't happened
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: text}
+      - id: rc1
+        kind: cause
+        text: >-
+          Too little medium-form, high-quality posting (blog or LessWrong-level posts).
+          Effort goes either to live "jazz cafe" talk or to rare full papers, with
+          little in between.
+        label: Too little medium-form, high-quality posting; effort is live talk or rare full papers
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: rc2
+        kind: cause
+        text: >-
+          No active distribution. No one's role is to clip and repost good material
+          (WhatsApp nudges, Substack Notes or Twitter, commenting on other blogs), so we
+          rely on platforms alone to spread it.
+        label: No active distribution; no one clips and reposts good material, so we rely on platforms
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: rc3
+        kind: cause
+        text: >-
+          The forum can't surface quality. There's no voting, threads derail within about
+          five replies, and the only control is banning.
+        label: "The forum can't surface quality: no voting, threads derail, only control is banning"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: rc4
+        kind: cause
+        text: >-
+          Channel focus is unclear across forum, Substack and YouTube; "where does stuff
+          go?" has no answer, so energy is spread thin.
+        label: Channel focus is unclear across forum, Substack and YouTube; energy is spread thin
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+          - {by: bob, attribution: explicit, mode: voice}
+      - id: c3
+        kind: cause
+        text: "Few growing contributors who can help with outputs (editing, harvesting, clipping)."
+        label: "Few growing contributors who can help with outputs (editing, harvesting, clipping)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: c4
+        kind: cause
+        text: "No simple SOPs that volunteers can pick up quickly."
+        label: "No simple SOPs that volunteers can pick up quickly"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: fw1
+        kind: observation
+        text: >-
+          The intended growth flywheel. Good medium-form posts travel, through platform
+          reach plus active distribution. Newcomers arrive, lurk and comment. Good
+          commenters rise into view through voting and threading. Some of them start
+          posting their own work, which produces more good posts.
+        label: "Intended flywheel: good posts travel, newcomers comment, good commenters rise and post"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: ude13
+        kind: undesirable_effect
+        text: "We don't systematically learn from or track how things are going (no throughput measures, no review loop)."
+        label: "We don't systematically learn from or track how things are going (no measures, no review loop)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+    links:
+      - id: rl1
+        from: [rc1]
+        to: ude2
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: rl2
+        from: [rc1]
+        to: ude3
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: rl3
+        from: [rc1]
+        to: ude5
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: rl4
+        from: [rc2]
+        to: ude5
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: rl5
+        from: [rc2]
+        to: ude10
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: rl6
+        from: [rc2]
+        to: ude11
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: rl7
+        from: [rc3]
+        to: ude11
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: rl8
+        from: [rc3]
+        to: ude12
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: rl9
+        from: [rc3]
+        to: ude7
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: rl10
+        from: [c2]
+        to: rc3
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: rl11
+        from: [rc4]
+        to: rc1
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: rl12
+        from: [rc4]
+        to: rc2
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: rl13
+        from: [c1]
+        to: ude6
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        assumptions:
+          - text: "Operations friction uses up steward time that could go to editing and distribution."
+            by: assistant
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: rl14
+        from: [c4]
+        to: c3
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: rl15
+        from: [c3]
+        to: ude1
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: rl16
+        from: [c3]
+        to: rc1
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: rl17
+        from: [c3]
+        to: rc2
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: rl18
+        from: [c3]
+        to: ude7
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+    backlog:
+      - ref: ude1
+        work: UDEs 1, 4, 6, 8, 9 not yet explained; likely upstream of rc1 (volunteer time, ops load)
+      - ref: ude1
+        work: collect any missing UDEs, then connect causes
+      - ref: c4
+        work: connect_or_explain
+      - ref: c3
+        work: "Why do contributors not grow? (beyond SOPs)"
+      - ref: ude13
+        work: connect_or_explain
+  conflict:
+    nodes:
+      - id: cc1
+        kind: objective
+        text: "The flywheel spins, given our limited attention."
+        label: "The flywheel spins, given our limited attention"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [rc4]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cc2
+        kind: need
+        text: "Put our limited public energy in one place, where a quality audience gathers and comments."
+        label: "Put our limited public energy in one place, where a quality audience gathers and comments"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: cc3
+        kind: need
+        text: "An informal back room to jam in, free of image management and trolls."
+        label: "An informal back room to jam in, free of image management and trolls"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: bob, attribution: explicit, mode: voice}
+      - id: cc4
+        kind: prerequisite
+        text: "One primary public channel for posting and building an audience (Substack, the forum or a blog; not yet chosen)."
+        label: "One primary public channel for posting and audience (Substack, forum or blog; not yet chosen)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: cc5
+        kind: prerequisite
+        text: "Keep a separate informal space (the forum), never mixed with the public channel."
+        label: "Keep a separate informal space (the forum), never mixed with the public channel"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: bob, attribution: explicit, mode: voice}
+      - id: cc6
+        kind: objective
+        text: "Clarify and seed the paradigm shift."
+        label: "Clarify and seed the paradigm shift"
+        status: accepted
+        accepted_by: [rufus]
+        derived_from: [g1]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: cc7
+        kind: need
+        text: "Ideas persist and travel beyond the room."
+        label: "Ideas persist and travel beyond the room"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: cc8
+        kind: need
+        text: "Real collective cognition happens."
+        label: "Real collective cognition happens"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: bob, attribution: explicit, mode: voice}
+      - id: cc9
+        kind: prerequisite
+        text: "Spend scarce hours producing and finishing outputs."
+        label: "Spend scarce hours producing and finishing outputs"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: cc10
+        kind: prerequisite
+        text: "Spend scarce hours on live dialogue (the Friday calls)."
+        label: "Spend scarce hours on live dialogue (the Friday calls)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: bob, attribution: explicit, mode: voice}
+      - id: cc11
+        kind: objective
+        text: "The outputs crew runs reliably."
+        label: "The outputs crew runs reliably"
+        status: accepted
+        accepted_by: [rufus]
+        derived_from: [fr2]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: cc12
+        kind: need
+        text: "Reliable, skilled output work with accountability."
+        label: "Reliable, skilled output work with accountability"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cc13
+        kind: need
+        text: "Stay within our means and grow community ownership (the contributor ladder)."
+        label: "Stay within our means and grow community ownership (the contributor ladder)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cc14
+        kind: prerequisite
+        text: "Pay the crew."
+        label: "Pay the crew"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: cc15
+        kind: prerequisite
+        text: "Use volunteers, who need recruiting and managing."
+        label: "Use volunteers, who need recruiting and managing"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: cc16
+        kind: objective
+        text: "A strong community of contributors."
+        label: "A strong community of contributors"
+        status: accepted
+        accepted_by: [rufus]
+        derived_from: [csf4]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cc17
+        kind: need
+        text: "Growth: newcomers flow in and some rise (the flywheel)."
+        label: "Growth: newcomers flow in and some rise (the flywheel)"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [ude10]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cc18
+        kind: need
+        text: "High quality and low noise; serious work is protected."
+        label: "High quality and low noise; serious work is protected"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [ude12]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cc19
+        kind: prerequisite
+        text: "Open membership: anyone can join and contribute."
+        label: "Open membership: anyone can join and contribute"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cc20
+        kind: prerequisite
+        text: "Selective membership (fellowships, the June 2026 pivot)."
+        label: "Selective membership (fellowships, the June 2026 pivot)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cc21
+        kind: objective
+        text: "Outputs advance the inquiry cumulatively."
+        label: "Outputs advance the inquiry cumulatively"
+        status: accepted
+        accepted_by: [rufus]
+        derived_from: [g1]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cc22
+        kind: need
+        text: "Volunteers stay motivated by working on what excites them."
+        label: "Volunteers stay motivated by working on what excites them"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+          - {by: bob, attribution: explicit, mode: voice}
+      - id: cc23
+        kind: need
+        text: "Work builds on itself rather than scattering into one-offs."
+        label: "Work builds on itself rather than scattering into one-offs"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [ude4]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cc24
+        kind: prerequisite
+        text: "People research what they like (the 2025 answer)."
+        label: "People research what they like (the 2025 answer)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cc25
+        kind: prerequisite
+        text: "An agreed agenda of key questions that work is directed to."
+        label: "An agreed agenda of key questions that work is directed to"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+    links:
+      - id: cl1
+        from: [cc2]
+        to: cc1
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cl2
+        from: [cc3]
+        to: cc1
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cl3
+        from: [cc4]
+        to: cc2
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        assumptions:
+          - text: "Only a single focused public channel builds a quality audience with our attention."
+            by: assistant
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cl4
+        from: [cc5]
+        to: cc3
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        assumptions:
+          - text: "Public spaces mean image management and trolls"
+            by: assistant
+          - text: "Mixing jamming and publishing in one place spoils both"
+            by: assistant
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cl5
+        from: [cc4]
+        to: cc5
+        relation: conflicts_with
+        status: accepted
+        accepted_by: [rufus]
+        assumptions:
+          - text: "Two places split focus (people must follow two places); only true if both do the same job."
+            by: assistant
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cl6
+        from: [cc7]
+        to: cc6
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cl7
+        from: [cc8]
+        to: cc6
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cl8
+        from: [cc9]
+        to: cc7
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cl9
+        from: [cc10]
+        to: cc8
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cl10
+        from: [cc9]
+        to: cc10
+        relation: conflicts_with
+        status: accepted
+        accepted_by: [rufus]
+        assumptions:
+          - text: "(1) It's the same few people's hours, including time organising the Friday calls. Rufus: partly true, but Bob likely has time for both if excited."
+            by: assistant
+          - text: "(2) Outputs need separate work on top of the dialogue; dialogues only sometimes feed outputs. Rufus: the big one."
+            by: assistant
+          - text: "(3) Harvesting makes calls performative. Rufus: not a real issue."
+            by: assistant
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cl11
+        from: [cc12]
+        to: cc11
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cl12
+        from: [cc13]
+        to: cc11
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cl13
+        from: [cc14]
+        to: cc12
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cl14
+        from: [cc15]
+        to: cc13
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cl15
+        from: [cc14]
+        to: cc15
+        relation: conflicts_with
+        status: accepted
+        accepted_by: [rufus]
+        assumptions:
+          - text: "No money is available. Rufus: false; probably $5–10k is raisable."
+            by: assistant
+          - text: "Volunteers aren't reliable without heavy management, which we lack."
+            by: assistant
+          - text: "Paying some people damages the volunteer ethos."
+            by: assistant
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cl16
+        from: [cc17]
+        to: cc16
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cl17
+        from: [cc18]
+        to: cc16
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cl18
+        from: [cc19]
+        to: cc17
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cl19
+        from: [cc20]
+        to: cc18
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cl20
+        from: [cc19]
+        to: cc20
+        relation: conflicts_with
+        status: accepted
+        accepted_by: [rufus]
+        assumptions:
+          - text: "Membership is a single gate."
+            by: assistant
+          - text: "Openness brings noise (noise actually comes from no voting, rc3)."
+            by: assistant
+          - text: "Selection must happen at entry."
+            by: assistant
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cl21
+        from: [cc22]
+        to: cc21
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cl22
+        from: [cc23]
+        to: cc21
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cl23
+        from: [cc24]
+        to: cc22
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cl24
+        from: [cc25]
+        to: cc23
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: cl25
+        from: [cc24]
+        to: cc25
+        relation: conflicts_with
+        status: accepted
+        accepted_by: [rufus]
+        assumptions:
+          - text: "An agenda means directing people."
+            by: assistant
+          - text: "Free choice means scatter."
+            by: assistant
+          - text: "The agenda must be set top-down."
+            by: assistant
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+    backlog:
+      - ref: cl5
+        work: "Resolved by injection fr1 (front of house / back of house)"
+  future_reality:
+    nodes:
+      - id: fr1
+        kind: injection
+        text: >-
+          Front of house / back of house. One primary public channel gets most of our
+          posting energy; only a small editor group posts there, and comments are
+          moderated. The forum stays an informal back room for jamming and drafts. Good
+          material is harvested from the back room and the Friday calls into the front.
+          Which channel is the front of house (Substack or a renewed forum) is chosen later.
+        label: "Front of house / back of house: one moderated public channel, the forum as informal back room"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [rc4]
+        derived_from: [cc4, cc5]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+          - {by: bob, attribution: explicit, mode: voice}
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fr2
+        kind: injection
+        text: >-
+          An outputs crew: a small group of volunteers running simple SOPs (write up a
+          call, turn a thread into a post, edit, publish, clip and repost) so that output
+          work no longer depends on the core group's hours, and regulars get a ladder
+          from attending to contributing. Because dialogue only sometimes feeds outputs,
+          the crew supports both harvested posts and original medium-form posts by
+          members.
+        label: "Outputs crew: volunteers running simple SOPs for writing up, editing, publishing, clipping"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [c3, c4, ude7]
+        derived_from: [cc9, cc10]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fr3
+        kind: injection
+        text: "Hybrid crew. Combine some money with volunteers on a low-bono basis. A small paid coordinator recruits and runs the volunteers using the SOPs. Volunteers are also rewarded with recognition: bylines, the Fellow title and visibility on the front of house."
+        label: "Hybrid crew: a small paid coordinator runs low-bono volunteers, rewarded with recognition"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [cc11, ude8]
+        derived_from: [cc14, cc15]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fr4
+        kind: injection
+        text: "Raise funding for the research group, probably $5–10k, enough to fund a coordinator and low-bono stipends."
+        label: "Raise funding for the research group (probably $5–10k) for a coordinator and stipends"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [ude8]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: fr5
+        kind: injection
+        text: "A ladder: a wide-open funnel with progressive filtering. Anyone can read and comment; upvotes and contributions make people visible; Fellows are selected from those who rise and commit to outputs; at the top is the right to publish on the front-of-house channel (e.g. 'you can publish on our Substack')."
+        label: "A ladder: open funnel, progressive filtering, Fellows, then the right to publish front of house"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [ude10, ude12, ude7]
+        derived_from: [cc19, cc20]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fr6
+        kind: injection
+        text: "A living question map: a short issue tree of the second renaissance inquiry. People talk about and work on whatever they want, but on-map work is favoured when allocating funded time, attention and focus. After each Friday session the harvest (by the crew, possibly AI-assisted) checks what happened against the map and records any updates. The crew writes periodic syntheses, and the map is revised quarterly."
+        label: "A living question map: free choice, but on-map work favoured; harvest checks and quarterly revision"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [ude4]
+        derived_from: [cc24, cc25]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fe1
+        kind: predicted_effect
+        text: "After each Friday call the crew harvests (AI-assisted), checks against the question map and drafts a medium-form post."
+        label: "After each Friday call the crew harvests, checks against the map and drafts a post"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fe2
+        kind: desirable_effect
+        text: "Work builds up cumulatively against the map."
+        label: "Work builds up cumulatively against the map"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [ude4]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fe3
+        kind: desirable_effect
+        text: "Medium-form posts get finished regularly."
+        label: "Medium-form posts get finished regularly"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [ude1, ude3]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fe4
+        kind: desirable_effect
+        text: "Posts are published and findable on the front of house."
+        label: "Posts are published and findable on the front of house"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [ude2]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fe5
+        kind: desirable_effect
+        text: "The crew clips and reposts, so ideas travel (WhatsApp, Notes, other blogs)."
+        label: "The crew clips and reposts, so ideas travel (WhatsApp, Notes, other blogs)"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [ude5]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fe6
+        kind: predicted_effect
+        text: "Newcomers arrive and climb the ladder (comment, upvoted, Fellow, publish)."
+        label: "Newcomers arrive and climb the ladder (comment, upvoted, Fellow, publish)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fe7
+        kind: desirable_effect
+        text: "Regulars move up to contributing, the group grows, and higher-quality people rise."
+        label: "Regulars move up to contributing, the group grows, and higher-quality people rise"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [ude7, ude10, ude11, ude12]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fe8
+        kind: predicted_effect
+        text: "Fellows join the crew, closing the loop."
+        label: "Fellows join the crew, closing the loop"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fe9
+        kind: desirable_effect
+        text: "The informal back room protects Bob's jamming, so the outputs-vs-conversation split stops splitting effort."
+        label: "The back room protects Bob's jamming, so the outputs-vs-conversation split stops splitting effort"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [ude9]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fe10
+        kind: undesirable_effect
+        text: "More system means more coordination load, which may land back on Rufus or Bob."
+        label: "More system means more coordination load, which may land back on Rufus or Bob"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fr7
+        kind: injection
+        text: "Recruit more steward capacity: Bob, maybe Petronella, and others such as David Joseph."
+        label: "Recruit more steward capacity: Bob, maybe Petronella, and others such as David Joseph"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [fe10, ude6]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: fe11
+        kind: undesirable_effect
+        text: "Question-map upkeep becomes a chore nobody owns, and the map goes stale."
+        label: "Question-map upkeep becomes a chore nobody owns, and the map goes stale"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fr8
+        kind: injection
+        text: "Maintain the question map with the Reason Commons LTP skill and AI assistance."
+        label: "Maintain the question map with the Reason Commons LTP skill and AI assistance"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [fe11]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: fe12
+        kind: undesirable_effect
+        text: "Funding runs out and a stipend-dependent crew fades."
+        label: "Funding runs out and a stipend-dependent crew fades"
+        status: accepted
+        accepted_by: [rufus]
+        assumptions:
+          - text: "Rufus: we run on minimal funding and that can continue; acceptable risk."
+            by: rufus
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fe13
+        kind: undesirable_effect
+        text: "Visible ranking feels exclusionary to some current regulars."
+        label: "Visible ranking feels exclusionary to some current regulars"
+        status: accepted
+        accepted_by: [rufus]
+        assumptions:
+          - text: "Rufus: it will be ok; acceptable risk."
+            by: rufus
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+    links:
+      - id: fl1
+        from: [fr2]
+        to: fe1
+        relation: produces
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl2
+        from: [fr6]
+        to: fe1
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl3
+        from: [fe1]
+        to: fe2
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl4
+        from: [fe1]
+        to: fe3
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl5
+        from: [fr3]
+        to: fe3
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl6
+        from: [fe3]
+        to: fe4
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl7
+        from: [fr1]
+        to: fe4
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl8
+        from: [fe4]
+        to: fe5
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl9
+        from: [fr2]
+        to: fe5
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl10
+        from: [fe5]
+        to: fe6
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl11
+        from: [fr5]
+        to: fe6
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl12
+        from: [fe6]
+        to: fe7
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl13
+        from: [fe7]
+        to: fe8
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl14
+        from: [fe8]
+        to: fr2
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl15
+        from: [fr1]
+        to: fe9
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl16
+        from: [fr2]
+        to: fe10
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl17
+        from: [fr7]
+        to: fe10
+        relation: overcomes
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: fl18
+        from: [fr6]
+        to: fe11
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl19
+        from: [fr8]
+        to: fe11
+        relation: overcomes
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+      - id: fl20
+        from: [fr4]
+        to: fe12
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl21
+        from: [fr5]
+        to: fe13
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+    backlog:
+      - ref: fe1
+        work: "Remaining gaps: ude6 only partly cleared, ude8 depends on fr4, c1 ops friction unaddressed (coordinator may absorb)"
+      - ref: fr4
+        work: "Identify funding source(s) and who asks"
+      - ref: fr3
+        work: "Define coordinator role and low-bono terms"
+      - ref: fr1
+        work: "Choose the front-of-house channel: Substack or renewed forum (Forum Magnum)"
+      - ref: fr2
+        work: "Check for negative branches (e.g. who leads the crew, SOP upkeep) and plan prerequisites"
+      - ref: fr5
+        work: "Define ladder rungs and criteria for each step (comment, visible contributor, Fellow, front-of-house author)"
+      - ref: fr6
+        work: "Draft the first question map (issue tree of the 2R inquiry)"
+  prerequisite:
+    nodes:
+      - id: pt0
+        kind: objective
+        text: "Relaunch the research group's output system as soon as possible, from October 2026, so that the front of house, harvest, crew, ladder and question map are working. Most pieces roll out within weeks. A public announcement may follow in January 2027."
+        label: "Relaunch the output system ASAP (from Oct 2026); possible announcement Jan 2027"
+        status: accepted
+        accepted_by: [rufus]
+        derived_from: [fr1, fr2, fr5, fr6]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt1
+        kind: intermediate_objective
+        text: "G1. Decision rights clear: the stewards circle (Rufus, Jonah, Bob) decides; propose adding David Joseph to the circle."
+        label: "G1. Decision rights clear: stewards circle decides; propose adding David Joseph"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [ude6]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt2
+        kind: intermediate_objective
+        text: "D1. Front-of-house channel chosen (Substack or renewed forum)."
+        label: "D1. Front-of-house channel chosen (Substack or renewed forum)"
+        status: accepted
+        accepted_by: [rufus]
+        derived_from: [fr1]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt3
+        kind: intermediate_objective
+        text: "D2. Forum's role settled (back room only, or also front of house)."
+        label: "D2. Forum's role settled (back room only, or also front of house)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt4
+        kind: intermediate_objective
+        text: "D3. Channel map written: Discord for stewards and volunteers organising; WhatsApp/forum for day-to-day (back room); Substack/front for published work; YouTube for recordings; website for home, history and how to get involved."
+        label: "D3. Channel map written: which channel does what (Discord, WhatsApp/forum, Substack, YouTube, site)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt5
+        kind: intermediate_objective
+        text: "W1. Website home decided (research section on the main SoR site or a subsite; merge with Substack?; where results like this LTP are posted), decided jointly with the research community SCQ project."
+        label: "W1. Website home decided, jointly with the research community SCQ project"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt6
+        kind: intermediate_objective
+        text: "F1. Involvement funnel: clear paths from the SoR funnel into the research ladder."
+        label: "F1. Involvement funnel: clear paths from the SoR funnel into the research ladder"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: text}
+      - id: pt7
+        kind: intermediate_objective
+        text: "P1. Forum on Forum Magnum with voting and threading."
+        label: "P1. Forum on Forum Magnum with voting and threading"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [rc3, c2]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt8
+        kind: intermediate_objective
+        text: "P2. Front-of-house channel set up."
+        label: "P2. Front-of-house channel set up"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt9
+        kind: intermediate_objective
+        text: "P3. Ops basics fixed: automatic calendar invites, recording-to-YouTube pipeline."
+        label: "P3. Ops basics fixed: automatic calendar invites, recording-to-YouTube pipeline"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [c1]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt10
+        kind: intermediate_objective
+        text: "P4. Harvest pipeline: recording to AI-assisted write-up to draft post."
+        label: "P4. Harvest pipeline: recording to AI-assisted write-up to draft post"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt11
+        kind: intermediate_objective
+        text: "N1. Recording and AI-harvest consent norms agreed (the Pattern requires consent)."
+        label: "N1. Recording and AI-harvest consent norms agreed (the Pattern requires consent)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt12
+        kind: intermediate_objective
+        text: "N2. Moderation and community norms for the front of house and the forum."
+        label: "N2. Moderation and community norms for the front of house and the forum"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt13
+        kind: intermediate_objective
+        text: "C1. First SOPs: harvest a call, publish a post, clip and repost."
+        label: "C1. First SOPs: harvest a call, publish a post, clip and repost"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [c4]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt14
+        kind: intermediate_objective
+        text: "C2. First question map drafted (reason-commons plus AI)."
+        label: "C2. First question map drafted (reason-commons plus AI)"
+        status: accepted
+        accepted_by: [rufus]
+        derived_from: [fr6]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt15
+        kind: intermediate_objective
+        text: "A1. Back catalogue (white papers, recordings, stale research.lifeitself.org) has a home and redirects."
+        label: "A1. Back catalogue (papers, recordings, stale research site) has a home and redirects"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt16
+        kind: intermediate_objective
+        text: "M1. Raise minimal funding, up to $5–10k."
+        label: "M1. Raise minimal funding, up to $5–10k"
+        status: accepted
+        accepted_by: [rufus]
+        derived_from: [fr4]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt17
+        kind: intermediate_objective
+        text: "M2. Outputs crew in place: coordinator plus volunteers, a paid and low-bono mix."
+        label: "M2. Outputs crew in place: coordinator plus volunteers, a paid and low-bono mix"
+        status: accepted
+        accepted_by: [rufus]
+        derived_from: [fr2, fr3]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt18
+        kind: intermediate_objective
+        text: "M3. More steward capacity recruited (Petronella? David Joseph?)."
+        label: "M3. More steward capacity recruited (Petronella? David Joseph?)"
+        status: accepted
+        accepted_by: [rufus]
+        derived_from: [fr7]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt19
+        kind: intermediate_objective
+        text: "T2. Ladder launch and deliberate re-enrolment at the 31 Dec 2026 membership renewal."
+        label: "T2. Ladder launch and deliberate re-enrolment at the 31 Dec 2026 membership renewal"
+        status: accepted
+        accepted_by: [rufus]
+        derived_from: [fr5]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt20
+        kind: intermediate_objective
+        text: "K1. Throughput measures and a learning loop: track how the system is going and review it at each quarterly reflection."
+        label: "K1. Throughput measures and a learning loop, reviewed at each quarterly reflection"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: voice}
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt21
+        kind: obstacle
+        text: "No decision yet on channels and website."
+        label: "No decision yet on channels and website"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt22
+        kind: obstacle
+        text: "Forum lacks voting; migration stalled."
+        label: "Forum lacks voting; migration stalled"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt23
+        kind: obstacle
+        text: "Ops friction eats steward time."
+        label: "Ops friction eats steward time"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt24
+        kind: obstacle
+        text: "No SOPs volunteers can pick up."
+        label: "No SOPs volunteers can pick up"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt25
+        kind: obstacle
+        text: "No money."
+        label: "No money"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: pt26
+        kind: obstacle
+        text: "We don't track or learn from how things are going."
+        label: "We don't track or learn from how things are going"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+    links:
+      - {id: pl1, from: [pt1], to: pt2, relation: precedes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl2, from: [pt1], to: pt3, relation: precedes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl3, from: [pt1], to: pt5, relation: precedes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl4, from: [pt2], to: pt4, relation: precedes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl5, from: [pt3], to: pt4, relation: precedes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl6, from: [pt2], to: pt8, relation: precedes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl7, from: [pt3], to: pt7, relation: precedes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl8, from: [pt5], to: pt6, relation: precedes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl9, from: [pt5], to: pt15, relation: precedes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl10, from: [pt12], to: pt7, relation: precedes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl11, from: [pt7], to: pt19, relation: precedes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl12, from: [pt11], to: pt10, relation: precedes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl13, from: [pt9], to: pt13, relation: precedes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl14, from: [pt10], to: pt13, relation: precedes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl15, from: [pt13], to: pt17, relation: precedes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl16, from: [pt16], to: pt17, relation: precedes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl17, from: [pt4], to: pt17, relation: precedes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl18, from: [pt8], to: pt0, relation: necessary_for, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl19, from: [pt10], to: pt0, relation: necessary_for, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl20, from: [pt14], to: pt0, relation: necessary_for, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl21, from: [pt17], to: pt0, relation: necessary_for, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl22, from: [pt18], to: pt0, relation: necessary_for, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl23, from: [pt19], to: pt0, relation: necessary_for, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl24, from: [pt20], to: pt0, relation: necessary_for, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl25, from: [pt6], to: pt0, relation: necessary_for, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl26, from: [pt2], to: pt21, relation: overcomes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl27, from: [pt4], to: pt21, relation: overcomes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl28, from: [pt5], to: pt21, relation: overcomes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl29, from: [pt7], to: pt22, relation: overcomes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl30, from: [pt9], to: pt23, relation: overcomes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl31, from: [pt13], to: pt24, relation: overcomes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl32, from: [pt16], to: pt25, relation: overcomes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+      - {id: pl33, from: [pt20], to: pt26, relation: overcomes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
+    backlog:
+      - ref: pt0
+        work: "Sequence: decisions first (G1, D1-D3, W1 with the SCQ project), then set-up (P1-P4, N1/N2, C1, C2) in parallel as soon as possible; most pieces should roll out within weeks. Fixed dates: 31 Dec 2026, ladder launch and re-enrolment at the membership renewal; January 2027, possible public announcement."
