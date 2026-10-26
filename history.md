@@ -7,7 +7,7 @@ description: Short history of the Life Itself Research collective, 2016 to Octob
 
 # Research collective — potted history
 
-A first short pass, built from the [source inventory](https://github.com/life-itself/sor-community/blob/main/initiatives/research-group/sources.md) (private repo) (read 2026-10-22). Items marked (guess) are inferences, not sourced. Not yet reviewed by Rufus or Jonah.
+A first short pass, built from the [source inventory](ref/sources.md) (read 2026-10-22). Items marked (guess) are inferences, not sourced. Not yet reviewed by Rufus or Jonah.
 
 ```
 2016  Research Community begins (informal)

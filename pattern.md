@@ -116,7 +116,7 @@ Membership is approved by the Research Stewards Circle.
 | Quarterly | Reflection call | Review insights, adjust direction |
 | As agreed | Sub-circle calls | As agreed for the sub-circle |
 
-Note: later notes say the Friday call is weekly (see the [sources](https://github.com/life-itself/sor-community/blob/main/initiatives/research-group/sources.md), private repo).
+Note: later notes say the Friday call is weekly (see the [sources](ref/sources.md)).
 
 ## Sub-circles
 
