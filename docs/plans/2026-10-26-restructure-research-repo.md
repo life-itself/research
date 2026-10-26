@@ -16,9 +16,10 @@ Decided by Rufus, 26 Oct 2026. Background: the web LTP in sor-community (`projec
 ## Outline
 
 1. Keep everything at the root. Hide what shouldn't publish with Flowershow's `contentExclude`. No `site/` subfolder.
-2. Spread the sor-community research-group material across this repo by kind: core documents at the root, reference material in `ref/`, the purpose LTP in a project.
-3. Leave a stub for the research group initiative in sor-community.
-4. Do the move only once the research LTPs are complete, and publish the purpose LTP only after its wording pass.
+2. Spread the sor-community research-group material across this repo by kind: core documents at the root, reference material in `ref/`.
+3. Bring both LTPs across. The purpose LTP (LTP 1) is core to the group, so it goes at the root. The web LTP (LTP 2) belongs to a bounded project, so it goes in `projects/`.
+4. Leave stubs in sor-community.
+5. Each LTP moves when it is complete, and the session that ran it does the move. The purpose LTP is published only after its wording pass.
 
 ## Target layout
 
@@ -27,9 +28,11 @@ README.md          site home page (as now)
 history.md         the group's history          (from sor-community)
 vision.md          vision and inspirations      (from sor-community)
 pattern.md         governance charter, Apr 2026 (from sor-community)
+purpose-ltp/       LTP 1: the group's purpose and relaunch (from sor-community)
 discovery-calls.md as now
 ref/               reference material: sources inventory, sub-circle charter template
-projects/          bounded work: the 2022-25 project pages (as now) and new project folders
+projects/          bounded work: the 2022-25 project pages (as now) and new project folders,
+                   e.g. projects/2026-10-research-community/ (LTP 2, from sor-community)
 publications/      as now
 posts/             as now
 archive/           older material kept for reference
@@ -58,12 +61,15 @@ From sor-community `initiatives/research-group/`:
 | `archive/inspirations-board-2023.jpg` | `assets/inspirations-board-2023.jpg` | used by `vision.md` |
 | `archive/where-next-for-2025.md` | none | already published here as `posts/where-next-for-2025.md`. Keep the post and drop the copy, after checking they match |
 | `archive/README.md` | none | its index is no longer needed |
-| `purpose-ltp/` (context, goal options, YAML, `.gitignore`) | `projects/2026-10-research-relaunch/ltp/` | the project for the relaunch and this restructure. Do not move `.reason-commons/`, which is generated and gitignored |
+| `purpose-ltp/` (context, goal options, YAML, `.gitignore`) | `purpose-ltp/` | LTP 1, core to the group. Do not move `.reason-commons/`, which is generated and gitignored. Moved by the research-ltp session after the wording pass |
 | `README.md` | stays in sor-community as a stub | points to this repo |
 
-New: `projects/2026-10-research-relaunch/README.md`, a short project brief covering the purpose LTP, the January 2027 relaunch and this restructure, linked to the Beads epic `sorr-l57`.
+From sor-community `projects/2026-10-research-community/`:
 
-The SCQ B project (`projects/2026-10-research-community/`, including the web LTP) stays in sor-community. It is about research's place in SoR.
+| From | To | Note |
+|---|---|---|
+| `README.md` (SCQ B) and `ltp/` (context, YAML, `.gitignore`) | `projects/2026-10-research-community/` | LTP 2, the web and knowledge presence project. Same rules on `.reason-commons/`. Moved by the research-web-ltp session when its LTP is done |
+| — | sor-community keeps a one-line row in `projects/README.md` pointing here | |
 
 ## Steps
 
@@ -74,12 +80,14 @@ The SCQ B project (`projects/2026-10-research-community/`, including the web LTP
       - Links to sibling repos (`../../../next.lifeitself.org/...`, `../../../planning/...`) become GitHub URLs.
       - Links back into sor-community become GitHub URLs, noting that the repo is private.
       - Internal links get their new paths.
-   3. Move the files as in the table, and write the project README.
-   4. Link the new pages from the home page if they belong there (history, vision, pattern).
+   3. Move the core and reference files as in the table (this thread).
+   4. Each LTP session moves its own LTP, copying the files across, then removing them from sor-community, with the same link rules. Each also fixes the cross-links between the two LTPs, since the web LTP reuses purpose LTP nodes.
+   5. Link the new pages from the home page if they belong there (history, vision, pattern, purpose LTP).
 3. **In sor-community:**
    1. Turn `initiatives/research-group/README.md` into a stub that points here.
-   2. Update the links in `projects/README.md`, `initiatives/README.md`, the SCQ B README, `ltp/context.md` and `ltp/reason-commons.yaml`.
-   3. Check `planning/initiatives/life-itself-research.md`.
+   2. Replace `projects/2026-10-research-community/` with a row in `projects/README.md` that points here.
+   3. Update the links in `initiatives/README.md` and anything else that points at the moved files.
+   4. Check `planning/initiatives/life-itself-research.md`.
 4. **Gate:** commit the purpose LTP here only after the wording pass, `sorr-l57.21`. This repo publishes on push.
 5. **Beads:** close `sorr-3kr.5`, and note the new paths in `sorr-l57.15`.
 6. **Check:** the live site, the home page, `/discovery-calls` and the nav links.
