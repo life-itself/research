@@ -1,0 +1,1633 @@
+schema_version: 1
+project: "Research in SoR: web and knowledge presence (SCQ B)"
+driver: rufus
+participants:
+  rufus: Rufus
+active_tree: future_reality
+trees:
+  goal:
+    nodes:
+      - id: g1
+        kind: goal
+        text: >-
+          Research has a home in Seeds of Renaissance (SoR). People coming to SoR who
+          want to explore, learn and share with others, all the way up to real
+          research, find a clear way in; the people running the group have a working
+          base to find, organise, coordinate and plan; and the group presents its work
+          to the wider world in its own right while staying connected to SoR.
+        label: "Research has a home in SoR: a clear way in, a working base, and its own public face"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: rufus, attribution: explicit, mode: text}
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: csf1
+        kind: critical_success_factor
+        text: >-
+          Way in (core): a visitor coming through SoR quickly sees what research
+          offers, what is next (call, event) and how to get involved, whether on the
+          SoR site or one step from it.
+        label: "Way in: SoR visitors quickly see what research offers, what's next and how to join"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+          - {by: rufus, attribution: explicit, mode: text}
+      - id: csf2
+        kind: critical_success_factor
+        text: >-
+          Working base (core): stewards and active members can find information,
+          organise, coordinate, and plan and work (documents, Beads tasks and similar)
+          in one place.
+        label: "Working base: stewards and active members find, organise, coordinate and plan in one place"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+          - {by: rufus, attribution: explicit, mode: text}
+      - id: csf3
+        kind: critical_success_factor
+        text: >-
+          Reference (secondary): active members and returning readers can find
+          background documents, past work and history.
+        label: "Reference (secondary): background docs, past work and history are findable"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+          - {by: rufus, attribution: explicit, mode: text}
+      - id: csf4
+        kind: critical_success_factor
+        text: >-
+          Own public face: the group's work reaches a wider audience in its own right;
+          the group runs semi-autonomously but stays visibly part of SoR.
+        label: "Own public face: work reaches a wider audience; semi-autonomous but visibly part of SoR"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+          - {by: rufus, attribution: explicit, mode: text}
+      - id: csf5
+        kind: critical_success_factor
+        text: >-
+          Clear jobs: each research site, repo and channel has one written job, there
+          are no duplicate homes, and each stays current with little effort.
+        label: "Clear jobs: one written job per site/repo/channel, no duplicates, kept current cheaply"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+          - {by: rufus, attribution: explicit, mode: text}
+      - id: nc1_1
+        kind: necessary_condition
+        text: >-
+          Research home location set: a section of the SoR site or a subsite. Same node as purpose-LTP W1 (pt5).
+        label: "Research home location set: SoR section or subsite (= W1)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: nc1_2
+        kind: necessary_condition
+        text: >-
+          The SoR Join page and footer lead to research with need-led copy.
+        label: "SoR Join page and footer lead to research with need-led copy"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: nc1_3
+        kind: necessary_condition
+        text: >-
+          What research offers and its next call or event are visible and current (for example, a Luma feed).
+        label: "Research's offer and next call or event are visible and current"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: nc1_4
+        kind: necessary_condition
+        text: >-
+          Clear paths lead from the SoR funnel to a joinable first rung of the research ladder. Same node as purpose-LTP F1 (pt6); the rung itself is defined in SCQ A.
+        label: "Clear paths lead from the SoR funnel to a joinable first rung (= F1)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: nc2_1
+        kind: necessary_condition
+        text: >-
+          One public working repo (life-itself/research) holds the charter, history, LTPs, plans and Beads tasks.
+        label: "One public working repo (life-itself/research) holds docs, plans and Beads tasks"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: nc2_2
+        kind: necessary_condition
+        text: >-
+          Stewards who don't use git can read and update the working base (for example, through agents).
+        label: "Stewards who don't use git can read and update the working base"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: nc2_3
+        kind: necessary_condition
+        text: >-
+          Private material, such as notes on members, stays out of the public repo, in sor-community.
+        label: "Private material stays out of the public repo, in sor-community"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: nc3_1
+        kind: necessary_condition
+        text: >-
+          The back catalogue has one canonical home; research.lifeitself.org and lifeitself.org/research redirect or point to it. Same node as purpose-LTP A1 (pt15).
+        label: "Back catalogue has one canonical home; old research sites redirect to it (= A1)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: nc3_2
+        kind: necessary_condition
+        text: >-
+          Reference material is findable from the research home, as published pages or a linked repo.
+        label: "Reference material is findable from the research home"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: nc4_1
+        kind: necessary_condition
+        text: >-
+          The front-of-house channel is chosen. Same node as purpose-LTP D1 (pt2); an input, not reopened here.
+        label: "Front-of-house channel chosen (= D1, input)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: nc4_2
+        kind: necessary_condition
+        text: >-
+          The public face and the SoR site link to each other, and the public face is visibly part of SoR.
+        label: "Public face and SoR site link to each other; the face is visibly SoR"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: nc5_1
+        kind: necessary_condition
+        text: >-
+          A published channel map covers the research sites, repos and channels, giving each one job and a named owner. Extends purpose-LTP D3 (pt4).
+        label: "Published channel map gives each site, repo and channel one job and an owner (= D3+)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: nc5_2
+        kind: necessary_condition
+        text: >-
+          New outputs and events reach the research home by feed or a simple SOP (related to purpose-LTP C1).
+        label: "New outputs and events reach the home by feed or simple SOP"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: nc5_3
+        kind: necessary_condition
+        text: >-
+          Rufus and agents can edit every research site as markdown, with no paid development.
+        label: "Every site is editable as markdown by Rufus and agents; no paid development"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+    links:
+      - id: l1
+        from: [csf1]
+        to: g1
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: l2
+        from: [csf2]
+        to: g1
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: l3
+        from: [csf3]
+        to: g1
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: l4
+        from: [csf4]
+        to: g1
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: l5
+        from: [csf5]
+        to: g1
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: l6
+        from: [nc1_1]
+        to: csf1
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: l7
+        from: [nc1_1]
+        to: csf4
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: l8
+        from: [nc1_1]
+        to: csf5
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: l9
+        from: [nc1_2]
+        to: csf1
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: l10
+        from: [nc1_3]
+        to: csf1
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: l11
+        from: [nc1_4]
+        to: csf1
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: l12
+        from: [nc2_1]
+        to: csf2
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: l13
+        from: [nc2_2]
+        to: csf2
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: l14
+        from: [nc2_3]
+        to: csf2
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: l15
+        from: [nc3_1]
+        to: csf3
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: l16
+        from: [nc3_2]
+        to: csf3
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: l17
+        from: [nc4_1]
+        to: csf4
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: l18
+        from: [nc4_2]
+        to: csf4
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: l19
+        from: [nc5_1]
+        to: csf5
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: l20
+        from: [nc5_2]
+        to: csf5
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: l21
+        from: [nc5_3]
+        to: csf5
+        relation: necessary_for
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+    backlog:
+      - ref: g1
+        work: "Serves purpose-LTP goal g1 (purpose-ltp/ at the research repo root), via its csf2 and csf4."
+        label: "Serves purpose-LTP goal g1 via its csf2 and csf4"
+      - ref: g1
+        work: "NCs accepted 2026-10-23: Rufus delegated acceptance after a subagent critique was folded in (decisions rephrased as states; old NC drafts merged from 19 to 14). Next: stop and check with Rufus before running further trees."
+        label: "NCs accepted 23 Oct after critique; check with Rufus before further trees"
+      - ref: g1
+        work: "Parked as an SoR strategy question: does the SoR community team count research as part of the SoR funnel (discover, calls, deeper, catalyst)? See https://github.com/life-itself/planning/blob/main/initiatives/seeds-of-renaissance/strategy.md (private repo)."
+        label: "Parked: does SoR count research in its funnel? (SoR strategy)"
+      - ref: nc4_1
+        work: "The SoR site decided (https://github.com/life-itself/sor-website/blob/main/docs/project.md (private repo), 23 Oct) that blog posts are written on the SoR site first and Substack carries only occasional big pieces. This may bear on D1; raise it in the purpose LTP."
+        label: "SoR blog-first decision may bear on D1"
+      - ref: nc2_2
+        work: "Key assumption to test: can stewards who do not use git work with a git-based base through agents, or do they need another surface?"
+        label: "Test: can non-git stewards use a git-based base?"
+      - ref: csf1
+        work: "Reuse purpose-LTP F1 (pt6) and part of W1 (pt5). Accepted 2026-10-23."
+        label: "Reuses purpose-LTP F1 (pt6) and part of W1 (pt5)"
+      - ref: csf3
+        work: "Reuse purpose-LTP A1 (pt15). Accepted 2026-10-23."
+        label: "Reuses purpose-LTP A1 (pt15)"
+      - ref: csf4
+        work: "Connected to the purpose LTP: depends on fr1 (front of house / back of house, accepted) and D1 (front-of-house channel, pt2, open). Strategy decisions stay in the purpose LTP; this tree only covers where the public face lives (Rufus, 2026-10-23)."
+        label: "Depends on purpose-LTP fr1 and open D1; only covers where the public face lives"
+      - ref: csf5
+        work: "Reuse purpose-LTP D3 (pt4). Accepted 2026-10-23."
+        label: "Reuses purpose-LTP D3 (pt4)"
+      - ref: csf2
+        work: "Accepted 2026-10-23 (Rufus)."
+        label: "Accepted 2026-10-23"
+  current_reality:
+    nodes:
+      - id: u1
+        kind: undesirable_effect
+        text: "The SoR site's Join page and footer send visitors to lifeitself.org/research: a Life Itself page, half-migrated, with no SoR framing and no clear next step."
+        label: "SoR Join page and footer send visitors to a half-migrated Life Itself research page"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [csf1, csf4]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: u2
+        kind: undesirable_effect
+        text: "The first rung of the research ladder isn't stated where SoR visitors land. (guess: the Friday call is the de facto first rung)"
+        label: "First rung of the ladder isn't stated where SoR visitors land"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [nc1_4]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: u3
+        kind: undesirable_effect
+        text: "Research's next call isn't shown on a research home; Luma, Discord and the old discovery-calls page each show only part of it."
+        label: "Next research call isn't shown on a research home; only parts appear elsewhere"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [nc1_3]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: u4
+        kind: undesirable_effect
+        text: "Working material is split across the private sor-community repo and its Beads, Discord, and the public life-itself/research repo."
+        label: "Working material is split across private sor-community, Discord and the public research repo"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [csf2]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: u5
+        kind: undesirable_effect
+        text: "The planned public working base (charter, history, LTPs) sits in the private sor-community repo for now, so the move to life-itself/research waits. (guess: some content is private)"
+        label: "Planned public working base sits in the private repo, so the move waits"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [nc2_1, nc2_3]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: u6
+        kind: undesirable_effect
+        text: "The same back catalogue lives at both research.lifeitself.org and lifeitself.org/research; the May 2026 retirement of the subdomain was never finished."
+        label: "Same back catalogue at two research homes; May 2026 retirement never finished"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [nc3_1]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: u7
+        kind: undesirable_effect
+        text: "research.lifeitself.org is stale (same as purpose-LTP ude2), and its navbar still points to the old 2R forum and the Substack."
+        label: "Old research site is stale (= purpose-LTP ude2) and its navbar points to old channels"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [csf3, csf5]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: u8
+        kind: undesirable_effect
+        text: "New outputs and events never reach the research web pages; nothing feeds them."
+        label: "New outputs and events never reach the research pages; nothing feeds them"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [nc5_2]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: u9
+        kind: undesirable_effect
+        text: "The research group's public face reads as 'Life Itself Research', so it isn't visibly part of SoR."
+        label: "Public face reads as Life Itself Research, so it isn't visibly SoR"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [csf4, nc4_2]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: c1
+        kind: cause
+        text: "Research moved into SoR in practice in 2026 but not formally: there is no decision on its name, brand or home (W1 open)."
+        label: "Research moved into SoR in practice, not formally: name, brand, home undecided"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: c2
+        kind: cause
+        text: "Channel focus is unclear (same as purpose-LTP rc4), and the front-of-house channel (D1) and channel map (D3) are undecided."
+        label: "Channel focus unclear (= purpose-LTP rc4); D1 and D3 undecided"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: c3
+        kind: cause
+        text: "Steward capacity is thin (same as purpose-LTP ude6), and web work falls to Rufus alone. (guess)"
+        label: "Thin steward capacity (= purpose-LTP ude6); web work falls to Rufus (guess)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: c4
+        kind: cause
+        text: "There is no simple publishing SOP or feed (same as purpose-LTP c4)."
+        label: "No simple publishing SOP or feed (= purpose-LTP c4)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: c5
+        kind: cause
+        text: "Tools grew up separately per channel and project (WhatsApp to Discord, the forum move, a repo per project)."
+        label: "Tools grew up separately per channel and project"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: c6
+        kind: cause
+        text: "The SoR site build left research till last and pointed at the existing Life Itself page as a stopgap. (guess)"
+        label: "SoR site build left research till last and pointed at the Life Itself page (guess)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+    links:
+      - id: rl1
+        from: [c1]
+        to: u1
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: rl2
+        from: [c1]
+        to: u2
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: rl3
+        from: [c1]
+        to: u9
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: rl4
+        from: [c1]
+        to: u6
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: rl5
+        from: [c2]
+        to: u3
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: rl6
+        from: [c2]
+        to: u7
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: rl7
+        from: [c2]
+        to: u8
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: rl8
+        from: [c3]
+        to: u6
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: rl9
+        from: [c3]
+        to: u7
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: rl10
+        from: [c3]
+        to: u8
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: rl11
+        from: [c4]
+        to: u8
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: rl12
+        from: [c4]
+        to: u3
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: rl13
+        from: [c5]
+        to: u3
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: rl14
+        from: [c5]
+        to: u4
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: rl15
+        from: [c5]
+        to: u5
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: rl16
+        from: [c6]
+        to: u1
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: rl17
+        from: [c6]
+        to: u9
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+    backlog:
+      - ref: c1
+        work: "Likely core driver with c2 (together they reach 7 of 9 UDEs). Deciding W1 (home, name, brand) is the candidate injection for a Future Reality Tree. CRT accepted for now by Rufus, 2026-10-26, after a subagent critique was folded in."
+        label: "Core driver with c2; W1 decision is the candidate injection"
+      - ref: c2
+        work: "Likely core driver with c1. D1 belongs to the purpose LTP; the SoR blog-first decision (https://github.com/life-itself/sor-website/blob/main/docs/project.md (private repo), 23 Oct) may settle it."
+        label: "Core driver with c1; D1 sits in the purpose LTP"
+      - ref: c3
+        work: "Guess; test whether web work really falls to Rufus alone."
+        label: "Test: does web work fall to Rufus alone?"
+      - ref: c6
+        work: "Guess; check with the SoR site team whether the link to lifeitself.org/research is a deliberate stopgap."
+        label: "Test: is the lifeitself.org/research link a stopgap?"
+      - ref: u1
+        work: "Critique (23 Oct) corrected the first draft: the SoR site already links research from Join (src/page/join.md) and the footer (src/lib/site.ts), both to lifeitself.org/research."
+        label: "Corrected: SoR site already links research, to lifeitself.org/research"
+  conflict:
+    nodes:
+      - id: wa
+        kind: objective
+        text: Research has a home in SoR (g1).
+        label: Research has a home in SoR
+        status: accepted
+        accepted_by:
+          - rufus
+        derived_from:
+          - nc1_1
+          - g1
+        addresses:
+          - c1
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: wb
+        kind: need
+        text: Research is visibly part of SoR, easy to find from it, and cheap to keep current (csf1, csf5).
+        label: Visibly part of SoR, easy to find, cheap to keep current
+        status: accepted
+        accepted_by:
+          - rufus
+        derived_from:
+          - csf1
+          - csf5
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: wc
+        kind: need
+        text: Research has its own public face, runs semi-autonomously and serves its working members (csf2, csf4).
+        label: Own public face, semi-autonomous, serves its members
+        status: accepted
+        accepted_by:
+          - rufus
+        derived_from:
+          - csf2
+          - csf4
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: wd
+        kind: prerequisite
+        text: Research is a section of the SoR site.
+        label: Research is a section of the SoR site
+        status: accepted
+        accepted_by:
+          - rufus
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: we
+        kind: prerequisite
+        text: Research has its own subsite.
+        label: Research has its own subsite
+        status: accepted
+        accepted_by:
+          - rufus
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: wi
+        kind: observation
+        text: 'Injection (accepted): split the jobs, challenging f. On the SoR site, a short research page or Join entry covers the way in: what research offers, the next call, the first step. The public face lives elsewhere (see cloud 2).'
+        label: 'Split the jobs: short way-in page on the SoR site; public face elsewhere'
+        status: accepted
+        accepted_by:
+          - rufus
+        derived_from:
+          - wd
+          - we
+        addresses:
+          - c1
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+          - by: rufus
+            attribution: explicit
+            mode: text
+      - id: pa
+        kind: objective
+        text: Research has a public face people use (csf4).
+        label: Research has a public face people use
+        status: accepted
+        accepted_by:
+          - rufus
+        derived_from:
+          - nc4_1
+          - nc3_1
+          - csf4
+        addresses:
+          - c2
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: pb
+        kind: need
+        text: Reference material (papers list, history, LTP trees, issues) is findable and presentable (csf2, csf3).
+        label: Reference material is findable and presentable
+        status: accepted
+        accepted_by:
+          - rufus
+        derived_from:
+          - csf2
+          - csf3
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: pc
+        kind: need
+        text: One public place, so people aren't split and upkeep is cheap (csf5).
+        label: 'One public place: no split, cheap upkeep'
+        status: accepted
+        accepted_by:
+          - rufus
+        derived_from:
+          - csf5
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: pd
+        kind: prerequisite
+        text: The repo publishes its own public site (Flowershow); Substack is the newsletter/blog.
+        label: Repo publishes its own site; Substack is the newsletter
+        status: accepted
+        accepted_by:
+          - rufus
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: pe
+        kind: prerequisite
+        text: The repo stays in the background; Substack is the public site.
+        label: Repo stays in the background; Substack is the public site
+        status: accepted
+        accepted_by:
+          - rufus
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: pi
+        kind: observation
+        text: 'Injection (accepted): Substack is research''s one public site (custom domain such as research.seedsofrenaissance.org to be checked); papers as posts plus a pinned "Papers and history" post. The life-itself/research repo holds reference material, tree state, issues and history. Rufus''s adjustment: the repo may still publish a low-key internal site (members list, governance docs; steward notes could go on the forum), public on the web but not promoted, for stewards and people running the group. research.lifeitself.org redirects to Substack or the repo. lifeitself.org/research may stay as an archive of what Life Itself Research did (some duplication acceptable; remove pages if duplication confuses), with a prominent notice that Life Itself Research has become / merged into the Seeds of Renaissance research group. Can always be amended later.'
+        label: Substack is the one public site; repo holds reference, maybe a low-key internal site
+        status: accepted
+        accepted_by:
+          - rufus
+        derived_from:
+          - pd
+          - pe
+        addresses:
+          - c2
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+          - by: rufus
+            attribution: explicit
+            mode: text
+      - id: ka
+        kind: objective
+        text: 'Stewards and active members have a working base (csf2).'
+        label: 'Stewards and active members have a working base'
+        status: accepted
+        accepted_by:
+          - rufus
+        derived_from:
+          - csf2
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: kb
+        kind: need
+        text: 'The group works in the open: plans, trees, issues and history are visible and contributors can find and join in (csf2, nc1_4).'
+        label: 'Works in the open; contributors can find and join in'
+        status: accepted
+        accepted_by:
+          - rufus
+        derived_from:
+          - csf2
+          - nc1_4
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: kc
+        kind: need
+        text: 'People''s privacy and steward candour are protected (nc2_3).'
+        label: 'Privacy and steward candour protected'
+        status: accepted
+        accepted_by:
+          - rufus
+        derived_from:
+          - nc2_3
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: kd
+        kind: prerequisite
+        text: 'Everything in the public life-itself/research repo.'
+        label: 'Everything in the public research repo'
+        status: accepted
+        accepted_by:
+          - rufus
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: kd2
+        kind: prerequisite
+        text: 'The working base stays private (sor-community).'
+        label: 'Working base stays private (sor-community)'
+        status: accepted
+        accepted_by:
+          - rufus
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: ki
+        kind: observation
+        text: 'Injection (accepted): split by kind of material, not by place. The public life-itself/research repo is the working base for the work (plans, trees, issues, history, governance, a members list with consent). Notes on people and candid steward discussion stay private (sor-community members/ or Discord). Rule: the public repo holds nothing about a person beyond what they would publish themselves. Default public, make private if needed.'
+        label: 'Split by kind of material: public repo for the work, notes on people private'
+        status: accepted
+        accepted_by:
+          - rufus
+        derived_from:
+          - kd
+          - kd2
+        addresses:
+          - u4
+          - u5
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+    links:
+      - id: wl1
+        from:
+          - wb
+        to: wa
+        relation: necessary_for
+        status: accepted
+        accepted_by:
+          - rufus
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: wl2
+        from:
+          - wc
+        to: wa
+        relation: necessary_for
+        status: accepted
+        accepted_by:
+          - rufus
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: wl3
+        from:
+          - wd
+        to: wb
+        relation: necessary_for
+        status: accepted
+        accepted_by:
+          - rufus
+        assumptions:
+          - text: Only a section of the SoR site reads as SoR.
+            by: assistant
+          - text: A second site is a second thing to keep current.
+            by: assistant
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: wl4
+        from:
+          - we
+        to: wc
+        relation: necessary_for
+        status: accepted
+        accepted_by:
+          - rufus
+        assumptions:
+          - text: The SoR site is for casual visitors, not members, and its nav is fixed.
+            by: assistant
+          - text: The group needs to publish without going through the SoR site team.
+            by: assistant
+          - text: The group can edit a markdown repo, not the Astro site.
+            by: assistant
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: wl5
+        from:
+          - wd
+        to: we
+        relation: conflicts_with
+        status: accepted
+        accepted_by:
+          - rufus
+        assumptions:
+          - text: The two can't both exist; one must be the home.
+            by: assistant
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: pl1
+        from:
+          - pb
+        to: pa
+        relation: necessary_for
+        status: accepted
+        accepted_by:
+          - rufus
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: pl2
+        from:
+          - pc
+        to: pa
+        relation: necessary_for
+        status: accepted
+        accepted_by:
+          - rufus
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: pl3
+        from:
+          - pd
+        to: pb
+        relation: necessary_for
+        status: accepted
+        accepted_by:
+          - rufus
+        assumptions:
+          - text: Reference material needs a proper website to be usable.
+            by: assistant
+          - text: Substack can't hold a papers list or a history page well.
+            by: assistant
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: pl4
+        from:
+          - pe
+        to: pc
+        relation: necessary_for
+        status: accepted
+        accepted_by:
+          - rufus
+        assumptions:
+          - text: Two domains split readers and double upkeep (as with the old site).
+            by: assistant
+          - text: Readers and subscribers are already on Substack.
+            by: assistant
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: pl5
+        from:
+          - pd
+        to: pe
+        relation: conflicts_with
+        status: accepted
+        accepted_by:
+          - rufus
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: kl1
+        from:
+          - kb
+        to: ka
+        relation: necessary_for
+        status: accepted
+        accepted_by:
+          - rufus
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: kl2
+        from:
+          - kc
+        to: ka
+        relation: necessary_for
+        status: accepted
+        accepted_by:
+          - rufus
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: kl3
+        from:
+          - kd
+        to: kb
+        relation: necessary_for
+        status: accepted
+        accepted_by:
+          - rufus
+        assumptions:
+          - text: 'Contributors can only reach a public repo; access management is too much overhead.'
+            by: assistant
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: kl4
+        from:
+          - kd2
+        to: kc
+        relation: necessary_for
+        status: accepted
+        accepted_by:
+          - rufus
+        assumptions:
+          - text: 'Plans inevitably mix with notes on people and candid steward talk.'
+            by: assistant
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+      - id: kl5
+        from:
+          - kd
+        to: kd2
+        relation: conflicts_with
+        status: accepted
+        accepted_by:
+          - rufus
+        assumptions:
+          - text: 'The working base must be one place.'
+            by: assistant
+        contributions:
+          - by: assistant
+            attribution: assistant
+            mode: text
+    backlog:
+      - ref: pi
+        work: This effectively chooses D1 (front-of-house channel) = Substack. D1 belongs to the purpose LTP (purpose-ltp/ at the research repo root) — flag there.
+        label: Picks D1 = Substack; flag to the purpose LTP
+      - ref: pi
+        work: Runs against the SoR site's own blog-first choice (https://github.com/life-itself/sor-website/blob/main/docs/project.md (private repo), 23 Oct); accepted deliberately for a semi-autonomous group.
+        label: Runs against the SoR site's blog-first choice; deliberate
+      - ref: pi
+        work: Check Substack custom-domain support and cost for research.seedsofrenaissance.org.
+        label: Check Substack custom domain and cost
+      - ref: ki
+        work: 'Alternative noted by Rufus: make the research repo private with a published website subfolder (public). Not chosen now; default is public.'
+        label: 'Alternative: private repo with public website subfolder; not chosen'
+      - ref: pi
+        work: 'Implementation of the lifeitself.org/research notice and any pruning is out of scope here; belongs to the Life Itself website (next.lifeitself.org). Noted to resolve the confusion between the two research homes (u6, u9).'
+        label: 'Notice and pruning belong to the Life Itself website'
+  future_reality:
+    nodes:
+      - id: i1
+        kind: injection
+        text: "The SoR site's Join entry and footer link point to a short /research page on the SoR site that says what research offers, shows the next research call and names the first step."
+        label: "Join entry and footer point to a short /research page on the SoR site"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [u1, u3]
+        derived_from: [wi]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: i2
+        kind: injection
+        text: "Substack is research's one public site, renamed to SoR research, ideally at research.seedsofrenaissance.org, with papers as posts plus a pinned 'Papers and history' post."
+        label: "Substack is research's one public site, renamed to SoR research"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [u8, u9]
+        derived_from: [pi]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: i3
+        kind: injection
+        text: "The public life-itself/research repo is the working base and reference; notes on people stay private in sor-community."
+        label: "Public research repo is the working base and reference; notes on people stay private"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [u4, u5]
+        derived_from: [ki]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: i4
+        kind: injection
+        text: "research.lifeitself.org redirects; lifeitself.org/research stays as a Life Itself archive with a prominent notice that Life Itself Research has merged into the SoR research group."
+        label: "Old subdomain redirects; lifeitself.org/research stays as a marked archive"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [u6, u7]
+        derived_from: [pi]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+          - {by: rufus, attribution: explicit, mode: text}
+      - id: i5
+        kind: injection
+        text: "A channel map gives every research site, repo and channel one job and a named owner, not all Rufus."
+        label: "Channel map: one job and a named owner per place, not all Rufus"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [c2, c3]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: i6
+        kind: injection
+        text: "The /research page pulls the next research call from Luma and the latest posts from the Substack RSS."
+        label: "/research page pulls the next call from Luma and latest posts from Substack RSS"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [u3, u8]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: i7
+        kind: injection
+        text: "The Friday research call is named as the first rung of the ladder until SCQ A says otherwise."
+        label: "Friday research call is the first rung until SCQ A says otherwise"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [u2]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: i8
+        kind: injection
+        text: "The SoR team formally accepts research as an SoR group, and the SoR site brief's 'own subsite' row is updated."
+        label: "SoR team formally accepts research as an SoR group; site brief updated"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [c1]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: i9
+        kind: injection
+        text: "Decisions and tasks go into the research repo's Beads, through an agent for stewards who don't use git; Discord is for talk."
+        label: "Decisions and tasks go into the repo's Beads (via agent for non-git stewards)"
+        status: accepted
+        accepted_by: [rufus]
+        addresses: [u4]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: e1
+        kind: predicted_effect
+        text: "SoR visitors find research's offer and next call on the SoR site."
+        label: "SoR visitors find research's offer and next call on SoR"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: e2
+        kind: predicted_effect
+        text: "Visitors know the first step into research."
+        label: "Visitors know the first step into research"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: e3
+        kind: predicted_effect
+        text: "Research's public face reads as part of SoR."
+        label: "Research's public face reads as part of SoR"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: e4
+        kind: predicted_effect
+        text: "Posting once reaches both Substack and the SoR research page; Luma covers events."
+        label: "Posting once reaches Substack and the SoR page; Luma covers events"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: e5
+        kind: predicted_effect
+        text: "Research-group material can move out of the private sor-community repo."
+        label: "Research-group material can leave the private repo"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: e6
+        kind: predicted_effect
+        text: "Working material is in one place."
+        label: "Working material is in one place"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: e7
+        kind: predicted_effect
+        text: "There is one live research home, and the Life Itself page is clearly an archive."
+        label: "One live research home; the Life Itself page is clearly an archive"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: e8
+        kind: predicted_effect
+        text: "Every place has an owner, so it stays current."
+        label: "Every place has an owner, so it stays current"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: de1
+        kind: desirable_effect
+        text: "Way in: SoR visitors quickly see what research offers, what's next and how to join (csf1)."
+        label: "Way in achieved (csf1)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: de2
+        kind: desirable_effect
+        text: "Working base: stewards and active members find, organise, coordinate and plan in one place (csf2)."
+        label: "Working base achieved (csf2)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: de3
+        kind: desirable_effect
+        text: "Reference: background documents, past work and history are findable (csf3)."
+        label: "Reference findable (csf3)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: de4
+        kind: desirable_effect
+        text: "Own public face: work reaches a wider audience, visibly part of SoR (csf4)."
+        label: "Own public face achieved (csf4)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: de5
+        kind: desirable_effect
+        text: "Clear jobs: one job per place, no duplicate live homes, kept current cheaply (csf5)."
+        label: "Clear jobs achieved (csf5)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: nb1
+        kind: undesirable_effect
+        text: "Research's Substack competes with the SoR newsletter, against SoR's blog-first choice."
+        label: "Research Substack competes with the SoR newsletter"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: nb2
+        kind: undesirable_effect
+        text: "The custom domain costs money or fails."
+        label: "Custom domain costs money or fails"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: nb3
+        kind: undesirable_effect
+        text: "Substack breaks 'every site editable as markdown by Rufus and agents' (nc5_3)."
+        label: "Substack breaks markdown and agent editing (nc5_3)"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: nb4
+        kind: undesirable_effect
+        text: "The rebrand confuses readers, and Life Itself feels it lost its research."
+        label: "Rebrand confuses readers; Life Itself feels it lost its research"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: nb5
+        kind: undesirable_effect
+        text: "Stewards who don't use git opt out, and Discord stays the real working base."
+        label: "Non-git stewards opt out; Discord stays the real base"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: nb6
+        kind: undesirable_effect
+        text: "Everything falls to Rufus, and pages go stale."
+        label: "Everything falls to Rufus; pages go stale"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: nb7
+        kind: undesirable_effect
+        text: "The Luma feed breaks or research calls are mistitled, so the next call is wrong or missing."
+        label: "Luma feed breaks or calls are mistitled"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: nb8
+        kind: undesirable_effect
+        text: "A public members list exposes someone without their consent."
+        label: "Public members list exposes someone without consent"
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+    links:
+      - id: fl1
+        from: [i1, i6, i8]
+        to: e1
+        relation: produces
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl2
+        from: [i1, i7]
+        to: e2
+        relation: produces
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl3
+        from: [e1, e2]
+        to: de1
+        relation: produces
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl4
+        from: [i2, i8]
+        to: e3
+        relation: produces
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl5
+        from: [e3]
+        to: de4
+        relation: produces
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl6
+        from: [i2, i6]
+        to: e4
+        relation: produces
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl7
+        from: [e4]
+        to: de5
+        relation: produces
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl8
+        from: [i3]
+        to: e5
+        relation: produces
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl9
+        from: [e5, i9]
+        to: e6
+        relation: produces
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl10
+        from: [e6]
+        to: de2
+        relation: produces
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl11
+        from: [i4]
+        to: e7
+        relation: produces
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl12
+        from: [e7, i3]
+        to: de3
+        relation: produces
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl13
+        from: [i5, i9]
+        to: e8
+        relation: produces
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl14
+        from: [e8]
+        to: de5
+        relation: produces
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl15
+        from: [i2]
+        to: nb1
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl16
+        from: [i2]
+        to: nb2
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl17
+        from: [i2]
+        to: nb3
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl18
+        from: [i2, i4]
+        to: nb4
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl19
+        from: [i9]
+        to: nb5
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl20
+        from: [i1, i2, i3]
+        to: nb6
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl21
+        from: [i6]
+        to: nb7
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+      - id: fl22
+        from: [i3]
+        to: nb8
+        relation: contributes_to
+        status: accepted
+        accepted_by: [rufus]
+        contributions:
+          - {by: assistant, attribution: assistant, mode: text}
+    backlog:
+      - ref: nb1
+        work: "Trim: One research line per SoR newsletter; the research Substack recommends SoR."
+        label: "Trim: One research line per SoR newsletter; the research Substack recommends SoR."
+      - ref: nb2
+        work: "Trim: Check the price now; until then use the Substack URL with SoR name and logo."
+        label: "Trim: Check the price now; until then use the Substack URL with SoR name and logo."
+      - ref: nb3
+        work: "Trim: Draft posts as markdown in the repo, then import; record the exception in the channel map."
+        label: "Trim: Draft posts as markdown in the repo, then import; record the exception in the ch"
+      - ref: nb4
+        work: "Trim: An announcement post plus the archive notice, agreed with the Life Itself site team."
+        label: "Trim: An announcement post plus the archive notice, agreed with the Life Itself site t"
+      - ref: nb5
+        work: "Trim: Test i9 with the stewards who do not use git."
+        label: "Trim: Test i9 with the stewards who do not use git."
+      - ref: nb6
+        work: "Trim: i5 owners plus agent SOPs plus a monthly check."
+        label: "Trim: i5 owners plus agent SOPs plus a monthly check."
+      - ref: nb7
+        work: "Trim: A title convention for research calls; the page falls back to the Luma link. Research calls must be on the second-renaissance Luma calendar; events.ts isCall excludes research, so the page needs its own filter."
+        label: "Trim: A title convention for research calls; the page falls back to the Luma link. Res"
+      - ref: nb8
+        work: "Trim: Opt-in only, checked before each push."
+        label: "Trim: Opt-in only, checked before each push."
+      - ref: i1
+        work: "FRT accepted for now by Rufus, 2026-10-26, after a subagent critique was folded in. Predictions stay predictions. Next: a Prerequisite or Transition tree turning i1-i9 into Beads tasks under calls-kwd."
+        label: "FRT accepted 26 Oct; next turn injections into Beads tasks"
