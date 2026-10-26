@@ -76,8 +76,4 @@ Dissemination, to inform and influence the wider community, is also named. The g
 
 ## Outcome
 
-The stewards answered these questions in the LTP itself, which they signed off on 2026-10-23:
-
-- **Goal:** clarify the paradigm shift and seed that clarity into the SoR community and the wider culture. See [goal-options.md](goal-options.md) for the options considered and the debate.
-- **Diagnosis, changes and prerequisites:** all trees are in [reason-commons.yaml](reason-commons.yaml).
-- **Work:** tracked in Beads in the `life-itself/research` repo, epic `sorr-l57`.
+The stewards answered these questions in the LTP, which they signed off on 2026-10-23. For a readable summary of the result, see [README.md](README.md).
