@@ -1,21 +1,9 @@
-# Research community — overview and SCQs
+# Research community — web and knowledge presence (SCQ B)
 
 Status: SCQ B signed off 2026-10-23 by Rufus (criteria marked (guess) accepted as working values)
 Source: conversation with Rufus, 22–23 Oct 2026. Beads epic: `sorr-l57` (this repo; formerly `calls-kwd` in sor-community).
 
-How the research group fits into Seeds of Renaissance (SoR). The work splits into two SCQs that share one background:
-
-- **Shared background:** the group's history and sources, kept once in [history.md](../../history.md) and [sources.md](../../ref/sources.md) (Research Group initiative).
-- **SCQ A: what the research group is for and how it is evolving.** Owned by the purpose LTP in [`purpose-ltp/`](../../purpose-ltp/context.md). Summarised below; not repeated.
-- **SCQ B: research's web and knowledge presence and its place in SoR.** This file. Takes A's outputs as inputs and does not reopen them.
-
-## SCQ A — purpose (summary)
-
-Question: what should the research group's purpose be now, what conditions must hold to achieve it, and is the group moving towards it?
-
-- Goal decided 22 Oct 2026 (Rufus, Bob; Jonah's audience critique open): the group clarifies the paradigm shift and seeds that clarity into the SoR community and the wider culture.
-- The LTP's January 2027 relaunch tree (a hypothesis, not settled — Rufus, 23 Oct) has two steps that wait on SCQ B: **W1** website home decided, and **F1** clear paths from the SoR funnel into the research ladder.
-- Status: LTP in progress; see the [context](../../purpose-ltp/context.md) and [goal options](../../purpose-ltp/goal-options.md).
+How research's web and knowledge presence fits into Seeds of Renaissance (SoR). The research group's purpose (SCQ A) was answered in a separate LTP: see the [purpose LTP](../../purpose-ltp/README.md). This project takes its outputs as inputs and does not reopen them. Shared background: [history.md](../../history.md) and [sources](../../ref/sources.md).
 
 ## SCQ B — web and knowledge presence
 
@@ -156,43 +144,44 @@ C1 and C2 together reach 7 of the 9 effects.
 **1. Where research lives**
 
 ```
-       B Visibly SoR, easy to find, ── D  A section of
-      ╱  cheap to keep current          the SoR site
-A Research                              ▲ conflict
-  has a home  ╲                         ▼
-  in SoR       C Own public face,  ── D' Its own subsite
-                 semi-autonomous,
-                 serves members
+     ┌─ B: Visibly SoR, easy to ── D: A section of the
+A:   │    find, cheap upkeep          SoR site
+Home ┤                                    ▲ conflict
+in   │                                    ▼
+SoR  └─ C: Own public face, ────── D′: Its own subsite
+          semi-autonomous
 ```
 
-Assumption broken: "the two can't both exist; one must be the home". Injection: split the jobs. A short research page on the SoR site is the way in; the public face lives elsewhere (cloud 2).
+- **Broken assumption:** "the two can't both exist; one must be the home".
+- **Injection:** split the jobs. A short research page on the SoR site is the way in; the public face lives elsewhere (cloud 2).
 
 **2. One public site or two**
 
 ```
-       B Reference material is    ── D  Repo publishes its
-      ╱  findable and presentable      own site; Substack
-A A public                             is the newsletter
-  face people                          ▲ conflict
-  use         ╲                        ▼
-               C One public place, ── D' Repo in background;
-                 cheap upkeep          Substack is THE site
+     ┌─ B: Reference material ──── D: Repo publishes its own
+A:   │    findable, presentable       site; Substack for posts
+Pub- ┤                                    ▲ conflict
+lic  │                                    ▼
+face └─ C: One public place, ───── D′: Repo in background;
+          cheap upkeep                 Substack is THE site
 ```
 
-Assumption broken: "reference material needs a proper website to be usable". Reference readers are mainly active members (the CSF3 audience), and the repo serves them. Injection: Substack is research's one public site; this repo holds reference material, tree state, issues and history, and may keep a low-key site.
+- **Broken assumption:** "reference material needs a proper website to be usable". Reference readers are mainly active members (the CSF3 audience), and the repo serves them.
+- **Injection:** Substack is research's one public site; this repo holds reference material, tree state, issues and history, and may keep a low-key site.
 
 **3. Public or private working base**
 
 ```
-       B The group works in the  ── D  Everything in the
-      ╱  open                         public research repo
-A A working                           ▲ conflict
-  base for    ╲                       ▼
-  stewards     C Privacy and      ── D' Working base stays
-                 candour protected     private
+     ┌─ B: The group works in ──── D: Everything in the
+A:   │    the open                    public research repo
+Work ┤                                    ▲ conflict
+-ing │                                    ▼
+base └─ C: Privacy and candour ─── D′: The working base
+          protected                    stays private
 ```
 
-Assumption broken: "the working base must be one place". Injection: split by kind of material. This public repo holds the work. Notes on people stay private. Default public; make private if needed.
+- **Broken assumption:** "the working base must be one place".
+- **Injection:** split by kind of material. This public repo holds the work. Notes on people stay private. Default public; make private if needed.
 
 ### Future reality
 
