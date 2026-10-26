@@ -1,7 +1,7 @@
 # Research community — overview and SCQs
 
 Status: SCQ B signed off 2026-10-23 by Rufus (criteria marked (guess) accepted as working values)
-Source: conversation with Rufus, 22–23 Oct 2026. Beads epic: `calls-kwd`.
+Source: conversation with Rufus, 22–23 Oct 2026. Beads epic: `sorr-l57` (this repo; formerly `calls-kwd` in sor-community).
 
 How the research group fits into Seeds of Renaissance (SoR). The work splits into two SCQs that share one background:
 
@@ -65,8 +65,162 @@ Issue tree:
 - Merge the website with the Substack (LTP W1 wording).
 - Research as "its own subsite", with a need-led entry on the SoR Join page and a footer link (SoR site brief, 22 Oct).
 
-## Next
+## LTP summary
 
-The LTP on SCQ B ran 23–26 Oct 2026 with the `reason-commons` skill. On 26 Oct this project moved here from the private sor-community repo (Rufus decided it lives in the public research repo; plan: [docs/plans/2026-10-26-restructure-research-repo.md](../../docs/plans/2026-10-26-restructure-research-repo.md)). Next: turn the Future Reality Tree's injections into Beads tasks in this repo.
+A Logical Thinking Process (LTP) on SCQ B ran 23–26 Oct 2026. Rufus accepted each tree "for now": a working position to build on, not proof. The full state is in [ltp/reason-commons.yaml](ltp/reason-commons.yaml). Several nodes are reused from the [purpose LTP](../../purpose-ltp/README.md) (W1, F1, D3, A1).
 
-LTP state: [ltp/](ltp/context.md) — goal tree (goal, 5 CSFs, 14 NCs) accepted 23 Oct; Current Reality Tree (9 effects, 6 causes), three conflict clouds and a Future Reality Tree (9 injections) accepted 26 Oct.
+How to read it: the **goal tree** says what must be true (critical success factors, CSFs, and necessary conditions, NCs). The **current reality** says what's wrong and why. The **conflict clouds** are the dilemmas and how we broke them. The **future reality** lists the changes (injections) and what they should produce.
+
+### TL;DR
+
+- **Goal:** research has a home in SoR. Newcomers find a clear way in, the people running the group have a working base, and the group has its own public face that is visibly part of SoR.
+- **Likely core drivers:** research moved into SoR in practice but not formally (name, brand and home undecided), and it is unclear which channel does what.
+- **What we'll do:** a short research page on the SoR site for the way in; Substack as research's one public site; this repo as the working base and reference; the old research sites redirected or kept as a marked archive.
+
+### Goal tree
+
+Status of each necessary condition (NC), as of 26 Oct: ✓ met, ~ partly met, ✗ not met.
+
+```
+G  Research has a home in SoR: a clear way in, a working
+   base, and its own public face
+
+CSF1 Way in (core): SoR visitors quickly see what research
+     offers, what's next and how to join
+ ✓ Home location set: SoR section or subsite (= W1)
+   (decided 26 Oct: SoR page + Substack)
+ ~ SoR Join page and footer lead to research with
+   need-led copy (they point to the old LI page)
+ ✗ Research's offer and next call visible and current
+ ✗ Paths lead from the SoR funnel to a joinable first
+   rung (= F1; the Friday call exists but isn't named)
+
+CSF2 Working base (core): stewards and active members
+     find, organise, coordinate and plan in one place
+ ~ One public working repo holds docs, plans, tasks
+   (this repo, from 26 Oct)
+ ✗ Stewards who don't use git can read and update it
+ ~ Private material stays out of the public repo
+   (checked on the move; privacy rule still to write)
+
+CSF3 Reference (secondary): background docs, past work
+     and history are findable
+ ✗ Back catalogue has one canonical home (= A1)
+ ✗ Reference material findable from the research home
+
+CSF4 Own public face: reaches a wider audience; semi-
+     autonomous but visibly part of SoR
+ ✓ Front-of-house channel chosen (= D1)
+   (decided 26 Oct: Substack)
+ ✗ Public face and SoR site link; face is visibly SoR
+
+CSF5 Clear jobs: one job per place, no duplicate homes,
+     kept current cheaply
+ ✗ Channel map: one job and an owner per place (= D3)
+ ✗ New outputs and events reach the home by feed or SOP
+ ~ Every site editable as markdown by Rufus and agents;
+   no paid development (Substack is the exception)
+```
+
+### Current reality
+
+Undesirable effects:
+
+1. The SoR Join page and footer send visitors to a half-migrated Life Itself research page.
+2. The first rung of the research ladder isn't stated where SoR visitors land.
+3. The next research call isn't shown on a research home; only parts of it appear elsewhere.
+4. Working material is split across a private repo, Discord and this repo.
+5. The planned public working base sat in a private repo, so its move waited. (Resolved on 26 Oct.)
+6. The same back catalogue sits at research.lifeitself.org and lifeitself.org/research; the May 2026 retirement was never finished.
+7. research.lifeitself.org is stale, and its navbar points to old channels.
+8. New outputs and events never reach the research pages; nothing feeds them.
+9. The public face reads as "Life Itself Research", so it isn't visibly part of SoR.
+
+```
+C1 Research moved into SoR in practice,   ──► 1  2  6  9
+   not formally (name, brand, home)   (likely core driver)
+C2 Channel focus unclear; front of house  ──► 3  7  8
+   and channel map undecided          (likely core driver)
+C3 Thin steward capacity; web work falls  ──► 6  7  8
+   to one person (guess)
+C4 No simple publishing SOP or feed       ──► 3  8
+C5 Tools grew up per channel and project  ──► 3  4  5
+C6 The SoR site build pointed research at ──► 1  9
+   the existing Life Itself page (guess)
+```
+
+C1 and C2 together reach 7 of the 9 effects.
+
+### Conflict clouds
+
+**1. Where research lives**
+
+```
+       B Visibly SoR, easy to find, ── D  A section of
+      ╱  cheap to keep current          the SoR site
+A Research                              ▲ conflict
+  has a home  ╲                         ▼
+  in SoR       C Own public face,  ── D' Its own subsite
+                 semi-autonomous,
+                 serves members
+```
+
+Assumption broken: "the two can't both exist; one must be the home". Injection: split the jobs. A short research page on the SoR site is the way in; the public face lives elsewhere (cloud 2).
+
+**2. One public site or two**
+
+```
+       B Reference material is    ── D  Repo publishes its
+      ╱  findable and presentable      own site; Substack
+A A public                             is the newsletter
+  face people                          ▲ conflict
+  use         ╲                        ▼
+               C One public place, ── D' Repo in background;
+                 cheap upkeep          Substack is THE site
+```
+
+Assumption broken: "reference material needs a proper website to be usable". Reference readers are mainly active members (the CSF3 audience), and the repo serves them. Injection: Substack is research's one public site; this repo holds reference material, tree state, issues and history, and may keep a low-key site.
+
+**3. Public or private working base**
+
+```
+       B The group works in the  ── D  Everything in the
+      ╱  open                         public research repo
+A A working                           ▲ conflict
+  base for    ╲                       ▼
+  stewards     C Privacy and      ── D' Working base stays
+                 candour protected     private
+```
+
+Assumption broken: "the working base must be one place". Injection: split by kind of material. This public repo holds the work. Notes on people stay private. Default public; make private if needed.
+
+### Future reality
+
+| Injection | Mainly addresses effects | Status |
+|---|---|---|
+| Short /research page on the SoR site; Join and footer point to it | 1, 3 | Decided 26 Oct (cloud 1) |
+| Substack is research's one public site, renamed to SoR research | 8, 9 | Decided 26 Oct (cloud 2) |
+| This repo is the working base and reference; notes on people stay private | 4, 5 | Decided 26 Oct (cloud 3) |
+| research.lifeitself.org redirects; lifeitself.org/research becomes a marked archive | 6, 7 | Decided 26 Oct (cloud 2) |
+| Channel map: one job and a named owner per place | 7, 8 | Accepted for now |
+| /research page pulls the next call from Luma and posts from Substack | 3, 8 | Accepted for now |
+| The SoR team formally accepts research as an SoR group | 1, 9 | Accepted for now; needs the SoR team |
+| Friday research call is the first rung until the purpose LTP says otherwise | 2 | To test |
+| Decisions and tasks go into Beads, via an agent for stewards who don't use git | 4 | To test |
+
+Main risks, each with a trim in the YAML: the research Substack competing with the SoR newsletter; the custom domain cost; Substack not being editable as markdown; confusion from the rename; stewards who don't use git opting out; work falling to one person; a broken event feed; a members list exposing someone.
+
+### What we'll do
+
+Each injection is a task under the Beads epic `sorr-l57` (relaunch the research group's output system). Proposed order, not yet worked through in a prerequisite tree: SoR team agreement, then the SoR /research page; the Substack rename and announcement; then the redirects, channel map and repo rules.
+
+### Open questions
+
+- Can stewards who don't use git work with this repo through agents, or do they need another surface?
+- Does the SoR community count research as part of its funnel? This belongs to wider SoR strategy.
+
+### Links
+
+- [ltp/reason-commons.yaml](ltp/reason-commons.yaml): the trees
+- [ltp/context.md](ltp/context.md): inputs, decisions and open questions
+- [Purpose LTP](../../purpose-ltp/README.md): the research group's purpose (SCQ A)
