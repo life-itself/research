@@ -1,7 +1,7 @@
 ---
 title: Restructure the research repo and bring the research-group material home
 type: plan
-status: active
+status: done
 updated: 2026-10-26
 ---
 
