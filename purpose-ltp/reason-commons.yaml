@@ -1646,5 +1646,9 @@ trees:
       - {id: pl32, from: [pt16], to: pt25, relation: overcomes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
       - {id: pl33, from: [pt20], to: pt26, relation: overcomes, status: accepted, accepted_by: [rufus], contributions: [{by: assistant, attribution: assistant, mode: text}]}
     backlog:
+      - ref: pt2
+        work: "Effectively decided 2026-10-26 in the web LTP (projects/2026-10-research-community/ltp, cloud 2, accepted by Rufus): Substack is research's one public site, so the front of house is Substack. This deliberately differs from the SoR site's blog-first choice. Close sorr-l57.2 once decision rights (pt1) clear."
+      - ref: pt5
+        work: "Effectively decided 2026-10-26 in the web LTP (accepted by Rufus): the way in is a /research page on the SoR site, the public face is Substack, and the working base and reference is the life-itself/research repo. Close sorr-l57.5 once pt1 clears."
       - ref: pt0
         work: "Sequence: decisions first (G1, D1-D3, W1 with the SCQ project), then set-up (P1-P4, N1/N2, C1, C2) in parallel as soon as possible; most pieces should roll out within weeks. Fixed dates: 31 Dec 2026, ladder launch and re-enrolment at the membership renewal; January 2027, possible public announcement."
